@@ -63,7 +63,7 @@ class PhpTagShell extends AppShell {
 					$this->report[$e][0]++;
 				}
 				$this->out('');
-				$this->out('contains ' . rtrim(implode($error, ', '), ', ') . ' whitespaces / php tags: ' . $this->shortPath($file));
+				$this->out('contains ' . rtrim(implode(', ', $error), ', ') . ' whitespaces / php tags: ' . $this->shortPath($file));
 
 				if (!$this->autoCorrectAll) {
 					$dirname = dirname($file);

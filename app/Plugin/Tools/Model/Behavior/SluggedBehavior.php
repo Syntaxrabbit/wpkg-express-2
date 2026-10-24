@@ -220,7 +220,7 @@ class SluggedBehavior extends ModelBehavior {
 						$slug[] = $Model instanceof ShimModel ? $Model->fieldByConditions($field, ['id' => $Model->id]) : $Model->field($field);
 					}
 				}
-				$slug = implode($slug, $separator);
+				$slug = implode($separator, $slug);
 			} else {
 				$slug = $this->display($Model);
 			}
@@ -292,7 +292,7 @@ class SluggedBehavior extends ModelBehavior {
 					$word = $firstCharUp . $rest;
 				}
 				if ($case === 'title') {
-					$slug = implode($words, $separator);
+					$slug = implode($separator, $words);
 				} elseif ($case === 'camel') {
 					$slug = implode($words);
 				}

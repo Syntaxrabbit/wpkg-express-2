@@ -226,10 +226,10 @@ class Folder {
 		}
 
 		if ($dirs) {
-			$dirs = call_user_func_array('array_merge', $dirs);
+			$dirs = call_user_func_array('array_merge', array_values($dirs));
 		}
 		if ($files) {
-			$files = call_user_func_array('array_merge', $files);
+			$files = call_user_func_array('array_merge', array_values($files));
 		}
 		return array($dirs, $files);
 	}
@@ -520,7 +520,7 @@ class Folder {
 		foreach ($iterator as $itemPath => $fsIterator) {
 			if ($skipHidden) {
 				$subPathName = $fsIterator->getSubPathname();
-				if ($subPathName{0} === '.' || strpos($subPathName, DS . '.') !== false) {
+				if ($subPathName[0] === '.' || strpos($subPathName, DS . '.') !== false) {
 					continue;
 				}
 			}

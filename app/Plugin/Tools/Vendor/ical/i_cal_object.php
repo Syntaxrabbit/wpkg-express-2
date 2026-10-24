@@ -188,7 +188,7 @@ class ICalObject {
 				return $data;
 			} elseif (strtolower($key) == 'begin') {
 				$key = ucwords(strtolower($value));
-				if ($key{0} == 'V') {
+				if ($key[0] == 'V') {
 					$key = ucwords(substr($key, 1));
 				}
 				
@@ -356,7 +356,7 @@ class ICalObject {
 		$out = '';
 
 		for ($i = 0; $i < strlen($dur); $i++) {
-			switch(strtolower($dur{$i})) {
+			switch(strtolower($dur[$i])) {
 				case 't':
 				case 'p':
 					// do nothing
@@ -382,7 +382,7 @@ class ICalObject {
 					$tmp = '';
 				break;
 				default:
-					$tmp .= $dur{$i};
+					$tmp .= $dur[$i];
 				break;
 			}
 		}
@@ -417,5 +417,4 @@ class ICalObject {
 		die();
 	}
 }
-
 

@@ -64,7 +64,7 @@ class Horde_String
         if (is_array($input)) {
             $tmp = [];
             reset($input);
-            while (list($key, $val) = each($input)) {
+            foreach ($input as $key => $val) {
                 $tmp[self::_convertCharset($key, $from, $to)] = self::convertCharset($val, $from, $to, $force);
             }
             return $tmp;
@@ -81,7 +81,7 @@ class Horde_String
 
             $input = clone $input;
             $vars = get_object_vars($input);
-            while (list($key, $val) = each($vars)) {
+            foreach ($vars as $key => $val) {
                 $input->$key = self::convertCharset($val, $from, $to, $force);
             }
             return $input;

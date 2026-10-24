@@ -134,6 +134,15 @@ class ClassRegistry {
 				}
 				$alias = $settings['alias'];
 
+				if (class_exists($class)) {
+					$reflection = new ReflectionClass($class);
+					$modelClass = $class . 'Model';
+					App::uses($modelClass, $pluginPath . 'Model');
+					if ($reflection->isInternal() && class_exists($modelClass) && is_subclass_of($modelClass, 'Model')) {
+						$class = $modelClass;
+					}
+				}
+
 				$model = $_this->_duplicate($alias, $class);
 				if ($model) {
 					$_this->map($alias, $class);

@@ -19,7 +19,7 @@ namespace Zend\Filter;
  *
  * @deprecated
  */
-class Int extends ToInt
+class IntFilter extends ToInt
 {
     public function __construct()
     {

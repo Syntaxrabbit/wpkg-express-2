@@ -3953,7 +3953,7 @@ class GeSHi {
                     $attr_string .= ' ' . $key . '="' . implode(' ', $attr) . '"';
                 }
 
-                $parsed_code .= "<li$attr_string>$start{$code[$i-1]}$end</li>$ls";
+                $parsed_code .= "<li$attr_string>$start" . $code[$i - 1] . "$end</li>$ls";
                 unset($code[$i - 1]);
             }
         } else {
@@ -4733,7 +4733,9 @@ class GeSHi {
             // TODO: a|bb|c => [ac]|bb
             static $callback_2;
             if (!isset($callback_2)) {
-                $callback_2 = create_function('$matches', 'return "[" . str_replace("|", "", $matches[1]) . "]";');
+                $callback_2 = function ($matches) {
+                    return "[" . str_replace("|", "", $matches[1]) . "]";
+                };
             }
             $list = preg_replace_callback('#\(\?\:((?:.\|)+.)\)#', $callback_2, $list);
         }

@@ -12,7 +12,7 @@ App::uses('AppShell', 'Console/Command');
 App::uses('Security', 'Utility');
 App::uses('Folder', 'Utility');
 App::uses('File', 'Utility');
-App::uses('String', 'Utility');
+App::uses('CakeString', 'Utility');
 App::uses('CakeSchema', 'Model');
 
 /**

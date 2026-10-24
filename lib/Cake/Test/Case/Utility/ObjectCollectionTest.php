@@ -78,6 +78,16 @@ class ThirdGenericObject extends GenericObject {
 
 }
 
+class NamedArgumentGenericObject extends GenericObject {
+
+	public $arguments;
+
+	public function callback($first, $second) {
+		$this->arguments = array($first, $second);
+	}
+
+}
+
 /**
  * A collection of Generic objects
  */
@@ -166,6 +176,22 @@ class ObjectCollectionTest extends CakeTestCase {
 
 		$result = $this->Objects->load('First');
 		$this->assertSame($result, $this->Objects->First);
+	}
+
+/**
+ * Ensure associative event data is passed positionally to callbacks.
+ *
+ * @return void
+ */
+	public function testTriggerEventWithAssociativeData() {
+		$listener = new NamedArgumentGenericObject($this->Objects);
+		$this->Objects->setObject('NamedArgument', $listener);
+		$subject = new stdClass();
+		$event = new CakeEvent('Collection.callback', $subject, array('payload' => 'event-data'));
+
+		$this->Objects->trigger($event);
+
+		$this->assertSame(array($subject, 'event-data'), $listener->arguments);
 	}
 
 /**

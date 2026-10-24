@@ -35,7 +35,9 @@ App::uses('CheckPcrePattern', 'Utility');
  *
  * @package app.Model
  */
-class Attribute extends AppModel {
+class AttributeModel extends AppModel {
+
+	public $name = 'Attribute';
 
 /**
  * List of behaviors to load when the model object is initialized.

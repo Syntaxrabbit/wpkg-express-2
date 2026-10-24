@@ -13,7 +13,7 @@ App::uses('CakeInstallerShellTrait', 'CakeInstaller.Utility');
 App::uses('Security', 'Utility');
 App::uses('Folder', 'Utility');
 App::uses('File', 'Utility');
-App::uses('String', 'Utility');
+App::uses('CakeString', 'Utility');
 App::uses('CakeText', 'Utility');
 App::uses('ClassRegistry', 'Utility');
 App::uses('CakeSchema', 'Model');
@@ -173,6 +173,9 @@ class CakeInstallerShell extends AppShell {
  * @link http://book.cakephp.org/2.0/en/console-and-shells.html#Shell::hasMethod
  */
 	public function hasMethod($name) {
+		if (!is_string($name) || $name === '') {
+			return false;
+		}
 		try {
 			$method = new ReflectionMethod($this, $name);
 			if (!$method->isPublic() || substr($name, 0, 1) === '_') {

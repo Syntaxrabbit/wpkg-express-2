@@ -19,7 +19,7 @@ namespace Zend\Filter;
  *
  * @deprecated
  */
-class Null extends ToNull
+class NullFilter extends ToNull
 {
     /**
      * {@inheritdoc}

@@ -71,23 +71,11 @@ class TextExtHelper extends TextHelper {
 			$text = h($text);
 		}
 
-		$linkOptions = 'array(';
-		foreach ($htmlOptions as $option => $value) {
-			$value = var_export($value, true);
-			$linkOptions .= "'$option' => $value, ";
-		}
-		$linkOptions .= ')';
-
-		$customOptions = 'array(';
-		foreach ($options as $option => $value) {
-			$value = var_export($value, true);
-			$customOptions .= "'$option' => $value, ";
-		}
-		$customOptions .= ')';
-
 		$atom = '[\p{L}0-9!#$%&\'*+\/=?^_`{|}~-]';
 		return preg_replace_callback('/(' . $atom . '+(?:\.' . $atom . '+)*@[\p{L}0-9-]+(?:\.[a-z0-9-]+)+)/iu',
-			create_function('$matches', 'return TextExtHelper::prepareEmail($matches[0],' . $linkOptions . ',' . $customOptions . ');'), $text);
+			function ($matches) use ($htmlOptions, $options) {
+				return TextExtHelper::prepareEmail($matches[0], $htmlOptions, $options);
+			}, $text);
 	}
 
 	/**
@@ -236,9 +224,6 @@ class TextExtHelper extends TextHelper {
 	public function autoLinkUrls($text, $options = [], $htmlOptions = []) {
 		if (!isset($options['escape']) || $options['escape'] !== false) {
 			$text = h($text);
-			$matchString = 'hDec($matches[0])';
-		} else {
-			$matchString = '$matches[0]';
 		}
 
 		if (isset($htmlOptions['escape'])) {
@@ -246,14 +231,25 @@ class TextExtHelper extends TextHelper {
 		}
 		//$htmlOptions['escape'] = false;
 
-		$htmlOptions = var_export($htmlOptions, true);
-		$customOptions = var_export($options, true);
-
-		$text = preg_replace_callback('#(?<!href="|">)((?:https?|ftp|nntp)://[^\s<>()]+)#i', create_function('$matches',
-			'$Html = new HtmlHelper(new View(null)); return $Html->link(TextExtHelper::prepareLinkName(hDec($matches[0]), ' . $customOptions . '), hDec($matches[0]),' . $htmlOptions . ');'), $text);
+		$text = preg_replace_callback('#(?<!href="|">)((?:https?|ftp|nntp)://[^\s<>()]+)#i',
+			function ($matches) use ($options, $htmlOptions) {
+				$Html = new HtmlHelper(new View(null));
+				return $Html->link(
+					TextExtHelper::prepareLinkName(hDec($matches[0]), $options),
+					hDec($matches[0]),
+					$htmlOptions
+				);
+			}, $text);
 
 		return preg_replace_callback('#(?<!href="|">)(?<!http://|https://|ftp://|nntp://)(www\.[^\n\%\ <]+[^<\n\%\,\.\ <])(?<!\))#i',
-			create_function('$matches', '$Html = new HtmlHelper(new View(null)); return $Html->link(TextExtHelper::prepareLinkName(hDec($matches[0]), ' . $customOptions . '), "http://" . hDec($matches[0]),' . $htmlOptions . ');'), $text);
+			function ($matches) use ($options, $htmlOptions) {
+				$Html = new HtmlHelper(new View(null));
+				return $Html->link(
+					TextExtHelper::prepareLinkName(hDec($matches[0]), $options),
+					'http://' . hDec($matches[0]),
+					$htmlOptions
+				);
+			}, $text);
 	}
 
 	/**

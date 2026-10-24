@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.0 (2026-10-24)
+
+### Changes
+
+* Added compatibility fixes for PHP 8.
+
+
 ## v1.1.0-rc.1 (2020-10-25)
 
 ### New
@@ -274,5 +281,4 @@
 ### Fix
 
 * Fixed deletion of related attributes along with global variables.
-
 

@@ -51,7 +51,7 @@ See the project [presentation](https://anklimsk.github.io/wpkg-express-2/present
 ## Requirements
 
 - Apache module `mod_rewrite`;
-- PHP `5.4` or greater (up to `7.4`);
+- PHP `5.4` or greater (tested with `8.5`);
 - PHP Extensions: `pdo`, `ldap`, `bz2`, `xml` and `openssl`;
 - Ldap server (`Active Directory`, `Samba` or `OpenLDAP`) to authenticate
   (only `Active Directory`) and get a list of computers to create `Profiles` and `Hosts`
@@ -70,7 +70,7 @@ See the project [presentation](https://anklimsk.github.io/wpkg-express-2/present
 ## Installation
 
 1. Install WPKG Express 2 using composer:
-  `composer create-project anklimsk/wpkg-express-2 /var/www/wpkg`,
+  `composer create-project --no-dev anklimsk/wpkg-express-2 /var/www/wpkg`,
   where `/var/www/wpkg` is Document Root directory.
   Or just download the [latest release](https://github.com/anklimsk/wpkg-express-2/releases/latest)
   from [releases](https://github.com/anklimsk/wpkg-express-2/releases) and extract
