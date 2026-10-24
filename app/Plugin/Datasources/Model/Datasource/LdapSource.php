@@ -314,11 +314,13 @@ class LdapSource extends DataSource {
  * @return bool The connection status
  */
 	public function disconnect() {
-		if ($this->_result) {
+		if (is_resource($this->_result)) {
 			ldap_free_result($this->_result);
 		}
-		if (is_resource($this->database)) {
+		$this->_result = false;
+		if ($this->database) {
 			ldap_unbind($this->database);
+			$this->database = false;
 		}
 		$this->connected = false;
 		return $this->connected;
@@ -484,9 +486,20 @@ class LdapSource extends DataSource {
 			return false;
 		}
 		// Format results  -----------------------------
-		ldap_sort($this->database, $res, $queryData['order'][0]);
+		$canSortLdapResult = function_exists('ldap_sort');
+		if ($canSortLdapResult) {
+			ldap_sort($this->database, $res, $queryData['order'][0]);
+		}
 		$resultSet = ldap_get_entries($this->database, $res);
 		$resultSet = $this->_ldapFormat($model, $resultSet);
+		if (!$canSortLdapResult) {
+			$sortField = $queryData['order'][0];
+			usort($resultSet, function ($left, $right) use ($model, $sortField) {
+				$leftValue = isset($left[$model->alias][$sortField]) ? $left[$model->alias][$sortField] : '';
+				$rightValue = isset($right[$model->alias][$sortField]) ? $right[$model->alias][$sortField] : '';
+				return strcasecmp((string)$leftValue, (string)$rightValue);
+			});
+		}
 
 		// Query on linked models  ----------------------
 		if ($model->recursive > 0) {
@@ -793,7 +806,7 @@ class LdapSource extends DataSource {
  * @return int Number of rows in resultset
  */
 	public function lastNumRows($source = null) {
-		if ($this->_result && is_resource($this->_result)) {
+		if ($this->_result) {
 			return ldap_count_entries($this->database, $this->_result);
 		}
 		return null;
