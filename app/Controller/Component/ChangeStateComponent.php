@@ -56,9 +56,9 @@ class ChangeStateComponent extends BaseDataComponent {
 		$this->_controller->request->allowMethod('post', 'delete');
 		$this->_controller->ViewExtension->setRedirectUrl(null, $targetName);
 		if ($this->_modelTarget->Behaviors->loaded('UpdateModifiedDate')) {
-			$result = $this->_modelTarget->deleteAndUpdateDate();
+			$result = $this->_modelTarget->deleteAndUpdateDate($id);
 		} else {
-			$result = $this->_modelTarget->delete();
+			$result = $this->_modelTarget->delete($id);
 		}
 
 		if ($result) {
