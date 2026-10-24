@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.2 (2026-10-24)
+
+### Fix
+
+* Fixed production delivery of missing compressed CSS and JavaScript assets.
+
+
 ## v1.1.1 (2026-10-24)
 
 ### Fix

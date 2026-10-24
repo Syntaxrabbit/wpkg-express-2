@@ -24,6 +24,7 @@ class AssetsCompressorTest extends CakeTestCase {
 
 		$config = AssetConfig::buildFromIniFile($this->testConfig, $map);
 		$config->filters('js', null, array());
+		$this->testAssetConfig = $config;
 		$this->Compressor = $this->getMock('AssetCompressor', array('_getConfig'));
 		$this->Compressor->expects($this->any())
 			->method('_getConfig')
@@ -166,6 +167,38 @@ class AssetsCompressorTest extends CakeTestCase {
 		$this->request->url = 'cache_js/dynamic.js';
 		$this->request->query['file'] = array('library_file.js', 'lots_of_comments.js');
 		$this->assertEmpty($this->Compressor->beforeDispatch($event));
+	}
+
+/**
+ * Configured build files should be served dynamically in production.
+ *
+ */
+	public function testConfiguredBuildFileDebugOff() {
+		Configure::write('debug', 0);
+		$this->testAssetConfig->general('alwaysEnableController', true);
+		$this->request->url = 'cache_js/libs.v1234567890.js';
+		$data = array('request' => $this->request, 'response' => $this->response);
+		$event = new CakeEvent('Dispatcher.beforeDispatch', $this, $data);
+
+		$this->assertSame($this->response, $this->Compressor->beforeDispatch($event));
+		$this->assertNotEmpty($this->response->body());
+		$this->assertTrue($event->isStopped());
+	}
+
+/**
+ * Unconfigured dynamic builds should remain unavailable in production.
+ *
+ */
+	public function testDynamicBuildFileWithControllerEnabledDebugOff() {
+		Configure::write('debug', 0);
+		$this->testAssetConfig->general('alwaysEnableController', true);
+		$this->request->url = 'cache_js/dynamic.js';
+		$this->request->query['file'] = array('library_file.js', 'lots_of_comments.js');
+		$data = array('request' => $this->request, 'response' => $this->response);
+		$event = new CakeEvent('Dispatcher.beforeDispatch', $this, $data);
+
+		$this->setExpectedException('NotFoundException');
+		$this->Compressor->beforeDispatch($event);
 	}
 
 }

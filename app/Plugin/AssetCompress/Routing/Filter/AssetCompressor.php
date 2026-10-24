@@ -48,9 +48,12 @@ class AssetCompressor extends DispatcherFilter {
 			$config->theme($event->data['request']->query['theme']);
 		}
 
-		// Dynamically defined build file. Disabled in production for
-		// hopefully obvious reasons.
+		// Only allow ad-hoc build definitions in debug mode.
 		if ($config->files($build) === array()) {
+			if ($production) {
+				throw new NotFoundException(__('Asset build is not configured.'));
+			}
+
 			$files = array();
 			if (isset($request->query['file'])) {
 				$files = $request->query['file'];
@@ -107,7 +110,8 @@ class AssetCompressor extends DispatcherFilter {
 		if (strpos($url, $path) !== 0) {
 			return false;
 		}
-		return str_replace($path, '', $url);
+		$build = str_replace($path, '', $url);
+		return preg_replace('/\.v\d+(?=\.[^.]+$)/', '', $build);
 	}
 
 /**

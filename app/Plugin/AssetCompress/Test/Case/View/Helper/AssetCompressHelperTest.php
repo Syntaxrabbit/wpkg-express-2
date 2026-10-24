@@ -517,6 +517,16 @@ class AssetCompressHelperTest extends CakeTestCase {
 		$this->assertEquals('/cache_js/libs.js', $result);
 	}
 
+	public function testUrlProductionModeWithDynamicServing() {
+		Configure::write('debug', 0);
+		$config = $this->Helper->config();
+		$config->set('js.timestamp', true);
+		$config->general('alwaysEnableController', true);
+
+		$result = $this->Helper->url('libs.js');
+		$this->assertEquals('/cache_js/libs.js', $result);
+	}
+
 	public function testUrlFullOption() {
 		$version = Configure::read('Cake.version');
 		$this->skipIf(version_compare($version, '2.4.0', '<'));
