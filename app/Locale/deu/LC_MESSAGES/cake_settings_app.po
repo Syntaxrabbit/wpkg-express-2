@@ -1,0 +1,252 @@
+# German translations for CakeSettingsApp.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Application settings"
+msgstr "Anwendungseinstellungen"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Main settings"
+msgstr "Allgemeine Einstellungen"
+
+msgid "Extended settings"
+msgstr "Erweiterte Einstellungen"
+
+msgid "Interface"
+msgstr "Benutzeroberfläche"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Language of user interface"
+msgstr "Sprache der Benutzeroberfläche"
+
+msgid "Application settings has been saved."
+msgstr "Die Anwendungseinstellungen wurden gespeichert."
+
+msgid "Unable to save application settings."
+msgstr "Die Anwendungseinstellungen konnten nicht gespeichert werden."
+
+msgid "Reload the page to apply the settings."
+msgstr "Laden Sie die Seite neu, um die Einstellungen anzuwenden."
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Authentication"
+msgstr "Authentifizierung"
+
+msgid "Use external authentication"
+msgstr "Externe Authentifizierung verwenden"
+
+msgid "Use external authentication (e.g. Kerberos)"
+msgstr "Externe Authentifizierung verwenden (z. B. Kerberos)"
+
+msgid "Search on LDAP server"
+msgstr "Auf dem LDAP-Server suchen"
+
+msgid "Company name"
+msgstr "Firmenname"
+
+msgid "Autocomplete"
+msgstr "Autovervollständigung"
+
+msgid "Autocomplete limit"
+msgstr "Limit für Autovervollständigung"
+
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+msgid "Notify user via E-mail"
+msgstr "Benutzer per E-Mail benachrichtigen"
+
+msgid "Use user notification via E-mail"
+msgstr "Benutzerbenachrichtigung per E-Mail verwenden"
+
+msgid "E-mail"
+msgstr "E-Mail"
+
+msgid "E-mail for contact"
+msgstr "Kontakt-E-Mail-Adresse"
+
+msgid "Subject for E-mail"
+msgstr "Betreff der E-Mail"
+
+msgid "SMTP Server"
+msgstr "SMTP-Server"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Confirm password"
+msgstr "Passwort bestätigen"
+
+msgid "Caps Lock on"
+msgstr "Feststelltaste ist aktiviert"
+
+msgid "Address of the SMTP server."
+msgstr "Adresse des SMTP-Servers."
+
+msgid "Username for authentication on SMTP server."
+msgstr "Benutzername zur Anmeldung am SMTP-Server."
+
+msgid "Username for internal authentication."
+msgstr "Benutzername für die interne Anmeldung."
+
+msgid "Username for the XML protect account."
+msgstr "Benutzername für das XML-Schutzkonto."
+
+msgid "Username to connect to the SMB share."
+msgstr "Benutzername für die Verbindung zur SMB-Freigabe."
+
+msgid "Password for internal authentication."
+msgstr "Passwort für die interne Anmeldung."
+
+msgid "Password for the XML protect account."
+msgstr "Passwort für das XML-Schutzkonto."
+
+msgid "Password to connect to the SMB share."
+msgstr "Passwort für die Verbindung zur SMB-Freigabe."
+
+msgid "Search base"
+msgstr "Suchbasis"
+
+msgid "Company name for search employee on LDAP server"
+msgstr "Firmenname für die Mitarbeitersuche auf dem LDAP-Server"
+
+msgid "Distinguished name of the search base object for search employee on LDAP server (e.g. CN=Users,DC=fabrikam,DC=com)"
+msgstr "Distinguished Name der Suchbasis für die Mitarbeitersuche auf dem LDAP-Server (z. B. CN=Users,DC=example,DC=com)"
+
+msgid "Limit for autocomplete search query"
+msgstr "Limit für Autovervollständigungssuchen"
+
+msgid "E-mail for the contact with the administrator"
+msgstr "E-Mail-Adresse für die Kontaktaufnahme mit dem Administrator"
+
+msgid "Subject for e-mail to contact the administrator"
+msgstr "Betreff der E-Mail an den Administrator"
+
+msgid "&lt;None&gt;"
+msgstr "&lt;Keine&gt;"
+
+msgid "Are you sure you wish to clear queue of tasks?"
+msgstr "Möchten Sie die Aufgabenwarteschlange wirklich leeren?"
+
+msgid "Are you sure you wish to delete task '%s' created %s?"
+msgstr "Möchten Sie die Aufgabe '%1$s' (erstellt am %2$s) wirklich löschen?"
+
+msgid "CakePHP Queue clearing cache task."
+msgstr "CakePHP-Warteschlangenaufgabe zum Leeren des Caches."
+
+msgid "Clear queue of tasks"
+msgstr "Aufgabenwarteschlange leeren"
+
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Created"
+msgstr "Erstellt"
+
+msgid "Delete selected tasks"
+msgstr "Ausgewählte Aufgaben löschen"
+
+msgid "Delete task"
+msgstr "Aufgabe löschen"
+
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+msgid "Failed num."
+msgstr "Fehlgeschlagene"
+
+msgid "Failure mess."
+msgstr "Fehlermeldung"
+
+msgid "Fetched"
+msgstr "Abgerufen"
+
+msgid "Found clearing cache task in queue: %d. Skipped."
+msgstr "Cache-Leerungsaufgabe %d in der Warteschlange gefunden. Übersprungen."
+
+msgid "In progress"
+msgstr "In Bearbeitung"
+
+msgid "Invalid task"
+msgstr "Ungültige Aufgabe"
+
+msgid "Job type"
+msgstr "Aufgabentyp"
+
+msgid "LDAP group for access with role %s"
+msgstr "LDAP-Gruppe für den Zugriff mit der Rolle %s"
+
+msgid "LDAP group member for access with role %s"
+msgstr "Mitglied der LDAP-Gruppe für den Zugriff mit der Rolle %s"
+
+msgid "Not ready"
+msgstr "Nicht bereit"
+
+msgid "Not started"
+msgstr "Nicht gestartet"
+
+msgid "Port of the SMTP server."
+msgstr "Port des SMTP-Servers."
+
+msgid "Progress"
+msgstr "Fortschritt"
+
+msgid "Queue of tasks"
+msgstr "Aufgabenwarteschlange"
+
+msgid "Reference"
+msgstr "Referenz"
+
+msgid "Selected tasks could not be deleted. Please, try again."
+msgstr "Die ausgewählten Aufgaben konnten nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+msgid "Selected tasks has been deleted."
+msgstr "Die ausgewählten Aufgaben wurden gelöscht."
+
+msgid "State queue of tasks"
+msgstr "Status der Aufgabenwarteschlange"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "The task could not be deleted. Please, try again."
+msgstr "Die Aufgabe konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+msgid "The task has been deleted."
+msgstr "Die Aufgabe wurde gelöscht."
+
+msgid "The task queue could not be cleared. Please, try again."
+msgstr "Die Aufgabenwarteschlange konnte nicht geleert werden. Bitte versuchen Sie es erneut."
+
+msgid "The task queue has been cleared."
+msgstr "Die Aufgabenwarteschlange wurde geleert."
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "user with role %s"
+msgstr "Benutzer mit der Rolle %s"

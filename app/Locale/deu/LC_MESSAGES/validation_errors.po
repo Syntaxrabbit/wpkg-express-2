@@ -1,0 +1,252 @@
+# German validation messages for WPKG Express II.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Incorrect package revision"
+msgstr "Ungültige Paketrevision"
+
+msgid "That package revision already exists."
+msgstr "Diese Paketrevision ist bereits vorhanden."
+
+msgid "Incorrect foreign key"
+msgstr "Ungültiger Fremdschlüssel"
+
+msgid "Archive name is invalid."
+msgstr "Der Archivname ist ungültig."
+
+msgid "Archive data is invalid."
+msgstr "Die Archivdaten sind ungültig."
+
+msgid "Hash is invalid."
+msgstr "Der Hashwert ist ungültig."
+
+msgid "Hash is already exists."
+msgstr "Der Hashwert ist bereits vorhanden."
+
+msgid "Incorrect data"
+msgstr "Ungültige Daten"
+
+msgid "The configuration key is invalid."
+msgstr "Der Konfigurationsschlüssel ist ungültig."
+
+msgid "The configuration key already exists."
+msgstr "Der Konfigurationsschlüssel ist bereits vorhanden."
+
+msgid "The configuration value is invalid."
+msgstr "Der Konfigurationswert ist ungültig."
+
+msgid "The language code is invalid."
+msgstr "Der Sprachcode ist ungültig."
+
+msgid "The language code already exists."
+msgstr "Der Sprachcode ist bereits vorhanden."
+
+msgid "Message is invalid."
+msgstr "Die Nachricht ist ungültig."
+
+msgid "Attribute the exit code must be an integer or a string of 'any' or the symbol *."
+msgstr "Das Beendigungscode-Attribut muss eine Ganzzahl, der Text 'any' oder das Symbol * sein."
+
+msgid "The exit code's code already exists for this package action."
+msgstr "Dieser Beendigungscode ist für diese Paketaktion bereits vorhanden."
+
+msgid "The exit code is invalid."
+msgstr "Der Beendigungscode ist ungültig."
+
+msgid "The exit code already exists."
+msgstr "Der Beendigungscode ist bereits vorhanden."
+
+msgid "The hexadecimal value of the exit code is invalid. Format: 0x00000000."
+msgstr "Der hexadezimale Beendigungscode ist ungültig. Format: 0x00000000."
+
+msgid "The constant name of the exit code is invalid. Format: letters A-Z, numbers, and underscores."
+msgstr "Der Konstantenname des Beendigungscodes ist ungültig. Zulässig sind A-Z, Ziffern und Unterstriche."
+
+msgid "The exit code description is invalid."
+msgstr "Die Beschreibung des Beendigungscodes ist ungültig."
+
+msgid "The reboot type is invalid."
+msgstr "Der Neustarttyp ist ungültig."
+
+msgid "The reboot type already exists."
+msgstr "Der Neustarttyp ist bereits vorhanden."
+
+msgid "Data name is invalid."
+msgstr "Der Datenname ist ungültig."
+
+msgid "The host's name is an invalid regular expression."
+msgstr "Der Hostname enthält einen ungültigen regulären Ausdruck."
+
+msgid "That host already exists."
+msgstr "Dieser Host ist bereits vorhanden."
+
+msgid "The log's type is invalid."
+msgstr "Der Protokolltyp ist ungültig."
+
+msgid "Log message is invalid."
+msgstr "Die Protokollmeldung ist ungültig."
+
+msgid "Log date is invalid."
+msgstr "Das Protokolldatum ist ungültig."
+
+msgid "The host name is invalid."
+msgstr "Der Hostname ist ungültig."
+
+msgid "The host name already exists."
+msgstr "Der Hostname ist bereits vorhanden."
+
+msgid "The log type is invalid."
+msgstr "Der Protokolltyp ist ungültig."
+
+msgid "The log type already exists."
+msgstr "Der Protokolltyp ist bereits vorhanden."
+
+msgid "Package name is invalid."
+msgstr "Der Paketname ist ungültig."
+
+msgid "The package id must start with a letter or number and only contain: letters, numbers, underscores, and hyphens."
+msgstr "Die Paket-ID muss mit einem Buchstaben oder einer Ziffer beginnen und darf nur Buchstaben, Ziffern, Unterstriche und Bindestriche enthalten."
+
+msgid "That package already exists."
+msgstr "Dieses Paket ist bereits vorhanden."
+
+msgid "Package revision is invalid."
+msgstr "Die Paketrevision ist ungültig."
+
+msgid "The package's priority attribute is not an integer."
+msgstr "Das Prioritätsattribut des Pakets ist keine Ganzzahl."
+
+msgid "The package's reboot attribute is invalid."
+msgstr "Das Neustartattribut des Pakets ist ungültig."
+
+msgid "The package's execute attribute is invalid."
+msgstr "Das Ausführungsattribut des Pakets ist ungültig."
+
+msgid "The package's notify attribute is invalid."
+msgstr "Das Benachrichtigungsattribut des Pakets ist ungültig."
+
+msgid "The package's precheck-install attribute is invalid."
+msgstr "Das Attribut precheck-install des Pakets ist ungültig."
+
+msgid "The package's precheck-remove attribute is invalid."
+msgstr "Das Attribut precheck-remove des Pakets ist ungültig."
+
+msgid "The package's precheck-upgrade attribute is invalid."
+msgstr "Das Attribut precheck-upgrade des Pakets ist ungültig."
+
+msgid "The package's precheck-downgrade attribute is invalid."
+msgstr "Das Attribut precheck-downgrade des Pakets ist ungültig."
+
+msgid "Depended on self"
+msgstr "Ein Paket kann nicht von sich selbst abhängen."
+
+msgid "Dependency intersection"
+msgstr "Überschneidung von Abhängigkeiten"
+
+msgid "Included on self"
+msgstr "Ein Paket kann nicht sich selbst einschließen."
+
+msgid "Chain on self"
+msgstr "Eine Paketkette kann nicht auf sich selbst verweisen."
+
+msgid "The action type is invalid."
+msgstr "Der Aktionstyp ist ungültig."
+
+msgid "The action type already exists."
+msgstr "Der Aktionstyp ist bereits vorhanden."
+
+msgid "The execute type is invalid."
+msgstr "Der Ausführungstyp ist ungültig."
+
+msgid "The execute type already exists."
+msgstr "Der Ausführungstyp ist bereits vorhanden."
+
+msgid "The notify type is invalid."
+msgstr "Der Benachrichtigungstyp ist ungültig."
+
+msgid "The notify type already exists."
+msgstr "Der Benachrichtigungstyp ist bereits vorhanden."
+
+msgid "The precheck type is invalid."
+msgstr "Der Vorprüfungstyp ist ungültig."
+
+msgid "The precheck type already exists."
+msgstr "Der Vorprüfungstyp ist bereits vorhanden."
+
+msgid "The priority name is invalid."
+msgstr "Der Prioritätsname ist ungültig."
+
+msgid "The priority name already exists."
+msgstr "Der Prioritätsname ist bereits vorhanden."
+
+msgid "The priority is not an integer."
+msgstr "Die Priorität ist keine Ganzzahl."
+
+msgid "The priority already exists."
+msgstr "Diese Priorität ist bereits vorhanden."
+
+msgid "Incorrect installation date"
+msgstr "Ungültiges Installationsdatum"
+
+msgid "Incorrect uninstallation date"
+msgstr "Ungültiges Deinstallationsdatum"
+
+msgid "That profile already exists."
+msgstr "Dieses Profil ist bereits vorhanden."
+
+msgid "The report's type is invalid."
+msgstr "Der Berichtstyp ist ungültig."
+
+msgid "That package for this host already exists."
+msgstr "Dieses Paket ist für diesen Host bereits vorhanden."
+
+msgid "Report date is invalid."
+msgstr "Das Berichtsdatum ist ungültig."
+
+msgid "The report state is invalid."
+msgstr "Der Berichtsstatus ist ungültig."
+
+msgid "The report state already exists."
+msgstr "Der Berichtsstatus ist bereits vorhanden."
+
+msgid "The data file name is invalid."
+msgstr "Der Datendateiname ist ungültig."
+
+msgid "The data file name already exists."
+msgstr "Der Datendateiname ist bereits vorhanden."
+
+msgid "Invalid variable type."
+msgstr "Der Variablentyp ist ungültig."
+
+msgid "Invalid variable reference ID."
+msgstr "Die Referenz-ID der Variable ist ungültig."
+
+msgid "The variable name attribute is invalid."
+msgstr "Das Namensattribut der Variable ist ungültig."
+
+msgid "The variable value attribute is invalid."
+msgstr "Das Wertattribut der Variable ist ungültig."
+
+msgid "The package already exists."
+msgstr "Das Paket ist bereits vorhanden."
+
+msgid "The package's default state must be true or false."
+msgstr "Der Standardstatus des Pakets muss true oder false sein."
+
+msgid "The package's force state must be true or false."
+msgstr "Der erzwungene Status des Pakets muss true oder false sein."
+
+msgid "The WPI category is invalid."
+msgstr "Die WPI-Kategorie ist ungültig."
+
+msgid "The WPI category already exists."
+msgstr "Die WPI-Kategorie ist bereits vorhanden."

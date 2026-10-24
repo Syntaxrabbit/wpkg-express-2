@@ -1,0 +1,27 @@
+# German package action validation messages.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Incorrect foreign key"
+msgstr "Ungültiger Fremdschlüssel"
+
+msgid "The package action download target is invalid."
+msgstr "Das Downloadziel der Paketaktion ist ungültig."
+
+msgid "The package action command attribute is invalid."
+msgstr "Das Befehlsattribut der Paketaktion ist ungültig."
+
+msgid "The package action download URL is invalid."
+msgstr "Die Download-URL der Paketaktion ist ungültig."
+
+msgid "The package action timeout attribute is invalid."
+msgstr "Das Zeitlimitattribut der Paketaktion ist ungültig."

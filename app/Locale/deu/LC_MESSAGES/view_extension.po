@@ -1,0 +1,320 @@
+# German translations for CakeTheme view extensions.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Add row of filter"
+msgstr "Filterzeile hinzufügen"
+
+msgid "Delete row of filter"
+msgstr "Filterzeile löschen"
+
+msgid "Waiting to run task"
+msgstr "Warten auf die Ausführung der Aufgabe"
+
+msgid "Task"
+msgstr "Aufgabe"
+
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Message"
+msgstr "Meldung"
+
+msgid "Invalid path to \"www_root\" directory"
+msgstr "Ungültiger Pfad zum Verzeichnis \"www_root\""
+
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+msgid "Export method not found"
+msgstr "Exportmethode nicht gefunden"
+
+msgid "Invalid generated file"
+msgstr "Erzeugte Datei ist ungültig"
+
+msgid "Method \"%s\" is not exists in model \"%s\""
+msgstr "Die Methode \"%s\" ist im Modell \"%s\" nicht vorhanden"
+
+msgid "Unoconv is not configured"
+msgstr "Unoconv ist nicht konfiguriert"
+
+msgid "Invalid input file for converting to PDF"
+msgstr "Ungültige Eingabedatei für die PDF-Konvertierung"
+
+msgid "Invalid output file for converting to PDF"
+msgstr "Ungültige Ausgabedatei für die PDF-Konvertierung"
+
+msgid "Error on creation PDF file"
+msgstr "Fehler beim Erstellen der PDF-Datei"
+
+msgid "Path to preview directory is not contain path to \"www_root\" directory"
+msgstr "Der Pfad zum Vorschauverzeichnis enthält nicht den Pfad zum Verzeichnis \"www_root\""
+
+msgid "Invalid path to preview directory"
+msgstr "Ungültiger Pfad zum Vorschauverzeichnis"
+
+msgid "Invalid file for downloading"
+msgstr "Ungültige Datei zum Herunterladen"
+
+msgid "Paginator component is not loaded"
+msgstr "Die Paginator-Komponente wurde nicht geladen"
+
+msgid "Invalid name of target model for component"
+msgstr "Ungültiger Name des Zielmodells für die Komponente"
+
+msgid "Tree behavior is not loaded"
+msgstr "Das Tree-Verhalten wurde nicht geladen"
+
+msgid "Error move record %d %s"
+msgstr "Fehler beim Verschieben des Eintrags %d %s"
+
+msgid "Invalid Model name for tree view"
+msgstr "Ungültiger Modellname für die Baumansicht"
+
+msgid "&lt;None&gt;"
+msgstr "&lt;Keine&gt;"
+
+msgid "Invalid delta for moving record"
+msgstr "Ungültiger Versatz zum Verschieben des Eintrags"
+
+msgid "Invalid direction for moving record"
+msgstr "Ungültige Richtung zum Verschieben des Eintrags"
+
+msgid "Please fill in this field"
+msgstr "Bitte füllen Sie dieses Feld aus."
+
+msgid "Select file..."
+msgstr "Datei auswählen ..."
+
+msgid "Upload"
+msgstr "Hochladen"
+
+msgid "Abort"
+msgstr "Abbrechen"
+
+msgid "Processing..."
+msgstr "Wird verarbeitet ..."
+
+msgid "File upload failed"
+msgstr "Datei-Upload fehlgeschlagen"
+
+msgid "Click to sort by this fiels"
+msgstr "Klicken, um nach diesem Feld zu sortieren"
+
+msgid "Show or hide filter"
+msgstr "Filter ein- oder ausblenden"
+
+msgid "Print informations"
+msgstr "Informationen drucken"
+
+msgid "Export informations"
+msgstr "Informationen exportieren"
+
+msgid "Data filter for the table: %s"
+msgstr "Datenfilter für die Tabelle: %s"
+
+msgid "Change the logical condition of the group"
+msgstr "Logische Bedingung der Gruppe ändern"
+
+msgid "And"
+msgstr "Und"
+
+msgid "Or"
+msgstr "Oder"
+
+msgid "Not"
+msgstr "Nicht"
+
+msgid "Apply filter"
+msgstr "Filter anwenden"
+
+msgid "Clear filter"
+msgstr "Filter leeren"
+
+msgid "Sel."
+msgstr "Ausw."
+
+msgid "Change the logical condition of the field"
+msgstr "Logische Bedingung des Feldes ändern"
+
+msgid "Not equal"
+msgstr "Ungleich"
+
+msgid "Select / deselect all"
+msgstr "Alle auswählen / Auswahl aufheben"
+
+msgid "Group data processing"
+msgstr "Gruppenverarbeitung"
+
+msgid "Perform action"
+msgstr "Aktion ausführen"
+
+msgid "Action to perform"
+msgstr "Auszuführende Aktion"
+
+msgid "Select a action"
+msgstr "Aktion auswählen"
+
+msgid "Perform"
+msgstr "Ausführen"
+
+msgid "Detail information"
+msgstr "Detaillierte Informationen"
+
+msgid "Are you sure you wish to delete this data?"
+msgstr "Möchten Sie diese Daten wirklich löschen?"
+
+msgid "Expand text"
+msgstr "Text ausklappen"
+
+msgid "Roll up text"
+msgstr "Text einklappen"
+
+msgid "Page {:page} of {:pages}, showing {:current} %s out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Seite {:page} von {:pages}: {:current} %s von insgesamt {:count}, Einträge {:start} bis {:end}"
+
+msgid "Next page"
+msgstr "Nächste Seite"
+
+msgid "Last page"
+msgstr "Letzte Seite"
+
+msgid "Show as list"
+msgstr "Als Liste anzeigen"
+
+msgid "Go to the page"
+msgstr "Zur Seite wechseln"
+
+msgid "The page number to quickly jump"
+msgstr "Seitennummer für den schnellen Wechsel"
+
+msgid "Number of lines"
+msgstr "Anzahl der Zeilen"
+
+msgid "Showing {:count} %s"
+msgstr "{:count} %s werden angezeigt"
+
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+msgid "First page"
+msgstr "Erste Seite"
+
+msgid "Move top"
+msgstr "Ganz nach oben verschieben"
+
+msgid "Move up"
+msgstr "Nach oben verschieben"
+
+msgid "Move down"
+msgstr "Nach unten verschieben"
+
+msgid "Move bottom"
+msgstr "Ganz nach unten verschieben"
+
+msgid "Drag and drop this item"
+msgstr "Dieses Element per Drag-and-drop verschieben"
+
+msgid "Current loaded page {:page} of {:pages}, showing {:end} %s of {:count} total"
+msgstr "Aktuell geladene Seite {:page} von {:pages}: {:end} %s von insgesamt {:count} werden angezeigt"
+
+msgid "Load more informations"
+msgstr "Weitere Informationen laden"
+
+msgid "Load more"
+msgstr "Mehr laden"
+
+msgid "Print this page"
+msgstr "Diese Seite drucken"
+
+msgid "Show or hide full list"
+msgstr "Vollständige Liste ein- oder ausblenden"
+
+msgid "Page %d of %d"
+msgstr "Seite %d von %d"
+
+msgid "Click to preview"
+msgstr "Klicken, um die Vorschau anzuzeigen"
+
+msgid "Errors of state tree is not found"
+msgstr "Keine Fehler im Statusbaum gefunden"
+
+msgid "Error %s: Page not found"
+msgstr "Fehler %s: Seite nicht gefunden"
+
+msgid "Error %s: Internal Server Error"
+msgstr "Fehler %s: Interner Serverfehler"
+
+msgid "Equal"
+msgstr "Gleich"
+
+msgid "Greater than"
+msgstr "Größer als"
+
+msgid "Greater than or equal to"
+msgstr "Größer oder gleich"
+
+msgid "Less than"
+msgstr "Kleiner als"
+
+msgid "Less than or equal to"
+msgstr "Kleiner oder gleich"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "Menu of operations"
+msgstr "Aktionsmenü"
+
+msgid "record"
+msgid_plural "records"
+msgstr[0] "Eintrag"
+msgstr[1] "Einträge"
+
+msgid "Home page"
+msgstr "Startseite"
+
+msgid "Version: %s"
+msgstr "Version: %s"
+
+msgid "Download file %s"
+msgstr "Datei %s herunterladen"
+
+msgid "Preview file"
+msgstr "Dateivorschau"
+
+msgid "Loading..."
+msgstr "Wird geladen ..."
+
+msgid "Stack trace"
+msgstr "Stacktrace"
+
+msgid "Changing the filter condition"
+msgstr "Filterbedingung ändern"

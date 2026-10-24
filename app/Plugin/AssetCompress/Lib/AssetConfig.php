@@ -93,12 +93,47 @@ class AssetConfig {
 			$iniFile = APP . 'Config' . DS . 'asset_compress.ini';
 		}
 
-		// If the AssetConfig is in cache, means that user had General.cacheConfig in their ini.
+		$signature = self::_configSignature($iniFile, $constants);
 		if ($parsedConfig = Cache::read(self::CACHE_ASSET_CONFIG_KEY, self::CACHE_CONFIG)) {
-			return $parsedConfig;
+			$cachedSignature = Cache::read(self::CACHE_ASSET_CONFIG_KEY . '_signature', self::CACHE_CONFIG);
+			if ($cachedSignature === $signature) {
+				return $parsedConfig;
+			}
 		}
 
-		return self::_parseConfig($iniFile, $constants);
+		$parsedConfig = self::_parseConfig($iniFile, $constants);
+		if ($parsedConfig->general('cacheConfig')) {
+			Cache::write(self::CACHE_ASSET_CONFIG_KEY . '_signature', $signature, self::CACHE_CONFIG);
+		}
+
+		return $parsedConfig;
+	}
+
+/**
+ * Create a signature from all AssetCompress configuration files.
+ *
+ * @param string $baseFile Base configuration file.
+ * @param array $constants Additional constants used when parsing.
+ * @return string
+ */
+	protected static function _configSignature($baseFile, $constants) {
+		$configFiles = array($baseFile);
+		$plugins = CakePlugin::loaded();
+		foreach ($plugins as $plugin) {
+			$pluginConfig = CakePlugin::path($plugin) . 'Config' . DS . 'asset_compress.ini';
+			if (file_exists($pluginConfig)) {
+				$configFiles[] = $pluginConfig;
+			}
+		}
+
+		$signatureData = array('plugins' => $plugins, 'constants' => $constants);
+		foreach ($configFiles as $configFile) {
+			foreach (array($configFile, preg_replace('/(.*)\.ini$/', '$1.local.ini', $configFile)) as $path) {
+				$signatureData[$path] = is_file($path) ? hash_file('sha256', $path) : false;
+			}
+		}
+
+		return hash('sha256', serialize($signatureData));
 	}
 
 /**
@@ -127,6 +162,7 @@ class AssetConfig {
  */
 	public static function clearCachedAssetConfig() {
 		Cache::delete(self::CACHE_ASSET_CONFIG_KEY, self::CACHE_CONFIG);
+		Cache::delete(self::CACHE_ASSET_CONFIG_KEY . '_signature', self::CACHE_CONFIG);
 	}
 
 /**

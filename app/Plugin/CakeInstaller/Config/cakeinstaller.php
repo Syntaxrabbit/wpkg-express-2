@@ -213,6 +213,7 @@ $config['CakeInstaller'] = [
 	// List of languages for installer UI in format: ISO639-2
 	'UIlangList' => [
 		'eng',
+		'deu',
 		'rus',
 	]
 ];

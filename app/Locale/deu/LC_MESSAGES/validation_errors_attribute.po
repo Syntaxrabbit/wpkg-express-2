@@ -1,0 +1,60 @@
+# German attribute validation messages for WPKG Express II.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Invalid attribute type."
+msgstr "Der Attributtyp ist ungültig."
+
+msgid "Invalid attribute node."
+msgstr "Der Attributknoten ist ungültig."
+
+msgid "At least one field must be filled in."
+msgstr "Mindestens ein Feld muss ausgefüllt werden."
+
+msgid "Invalid attribute reference ID."
+msgstr "Die Referenz-ID des Attributs ist ungültig."
+
+msgid "The attributes already exists."
+msgstr "Diese Attribute sind bereits vorhanden."
+
+msgid "Invalid PCRE parsing flag."
+msgstr "Ungültiges PCRE-Auswertungsflag."
+
+msgid "Invalid architecture."
+msgstr "Die Architektur ist ungültig."
+
+msgid "Computer name must contain at least 1 characters."
+msgstr "Der Computername muss mindestens ein Zeichen enthalten."
+
+msgid "Computer name must contain no more than 15 characters."
+msgstr "Der Computername darf höchstens 15 Zeichen enthalten."
+
+msgid "Computer name must not contain the following characters: (\\), (/), (:), (*), (?), (\"), (<>), (<), (>), (|)."
+msgstr "Der Computername darf folgende Zeichen nicht enthalten: (\\), (/), (:), (*), (?), (\"), (<>), (<), (>), (|)."
+
+msgid "Enter a valid IP address."
+msgstr "Geben Sie eine gültige IP-Adresse ein."
+
+msgid "DNS domain name must contain at least 2 characters."
+msgstr "Der DNS-Domänenname muss mindestens 2 Zeichen enthalten."
+
+msgid "DNS domain name must contain no more than 24 characters."
+msgstr "Der DNS-Domänenname darf höchstens 24 Zeichen enthalten."
+
+msgid "DNS domain name must not contain the following characters: (,), (~), (:), (!), (@), (#), ($), (%), (^), (&), ('), (.), (()), ({}), (_)."
+msgstr "Der DNS-Domänenname darf folgende Zeichen nicht enthalten: (,), (~), (:), (!), (@), (#), ($), (%), (^), (&), ('), (.), (()), ({}), (_)."
+
+msgid "Group name must contain no more than 100 characters."
+msgstr "Der Gruppenname darf höchstens 100 Zeichen enthalten."
+
+msgid "Invalid PCRE pattern."
+msgstr "Das PCRE-Muster ist ungültig."

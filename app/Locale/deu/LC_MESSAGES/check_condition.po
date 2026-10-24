@@ -1,0 +1,120 @@
+# German check conditions.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Not"
+msgstr "Nicht"
+
+msgid "And"
+msgstr "Und"
+
+msgid "Or"
+msgstr "Oder"
+
+msgid "At least"
+msgstr "Mindestens"
+
+msgid "At most"
+msgstr "Höchstens"
+
+msgid "Exists"
+msgstr "Existiert"
+
+msgid "Equals"
+msgstr "Ist gleich"
+
+msgid "Size equals"
+msgstr "Größe ist gleich"
+
+msgid "Version smaller than"
+msgstr "Version kleiner als"
+
+msgid "Version less than or equal to"
+msgstr "Version kleiner oder gleich"
+
+msgid "Version equal to"
+msgstr "Version ist gleich"
+
+msgid "Version greater than"
+msgstr "Version größer als"
+
+msgid "Version greater than or equal to"
+msgstr "Version größer oder gleich"
+
+msgid "Date modify equal to"
+msgstr "Änderungsdatum ist gleich"
+
+msgid "Date modify newer than"
+msgstr "Änderungsdatum ist neuer als"
+
+msgid "Date modify older than"
+msgstr "Änderungsdatum ist älter als"
+
+msgid "Date create equal to"
+msgstr "Erstellungsdatum ist gleich"
+
+msgid "Date create newer than"
+msgstr "Erstellungsdatum ist neuer als"
+
+msgid "Date create older than"
+msgstr "Erstellungsdatum ist älter als"
+
+msgid "Date access equal to"
+msgstr "Zugriffsdatum ist gleich"
+
+msgid "Date access newer than"
+msgstr "Zugriffsdatum ist neuer als"
+
+msgid "Date access older than"
+msgstr "Zugriffsdatum ist älter als"
+
+msgid "Exit code smaller than"
+msgstr "Beendigungscode kleiner als"
+
+msgid "Exit code less than or equal to"
+msgstr "Beendigungscode kleiner oder gleich"
+
+msgid "Exit code equal to"
+msgstr "Beendigungscode ist gleich"
+
+msgid "Exit code greater than"
+msgstr "Beendigungscode größer als"
+
+msgid "Exit code greater than or equal to"
+msgstr "Beendigungscode größer oder gleich"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "Os"
+msgstr "Betriebssystem"
+
+msgid "Architecture"
+msgstr "Architektur"
+
+msgid "Ip addresses"
+msgstr "IP-Adressen"
+
+msgid "Domain name"
+msgstr "Domänenname"
+
+msgid "Groups"
+msgstr "Gruppen"
+
+msgid "Lcid"
+msgstr "Gebietsschema"
+
+msgid "Lcid os"
+msgstr "Gebietsschema des Betriebssystems"
+
+msgid "Environment"
+msgstr "Umgebung"

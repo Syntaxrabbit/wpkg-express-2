@@ -1,0 +1,48 @@
+# German CakeSettingsApp validation messages.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "This field must contain a valid group name."
+msgstr "Dieses Feld muss einen gültigen Gruppennamen enthalten."
+
+msgid "Incorrect value for checkbox"
+msgstr "Ungültiger Wert für das Kontrollkästchen."
+
+msgid "This field must contain a valid e-mail"
+msgstr "Dieses Feld muss eine gültige E-Mail-Adresse enthalten."
+
+msgid "This field must contain a valid subject of e-mail"
+msgstr "Dieses Feld muss einen gültigen E-Mail-Betreff enthalten."
+
+msgid "Invalid SMTP Server"
+msgstr "Ungültiger SMTP-Server."
+
+msgid "Invalid port number"
+msgstr "Ungültige Portnummer."
+
+msgid "Invalid SMTP Username"
+msgstr "Ungültiger SMTP-Benutzername."
+
+msgid "Invalid SMTP password"
+msgstr "Ungültiges SMTP-Passwort."
+
+msgid "Passwords dont match"
+msgstr "Die Passwörter stimmen nicht überein."
+
+msgid "This field must contain a valid limit of autocomplete between %d and %d"
+msgstr "Dieses Feld muss einen gültigen Autovervollständigungsgrenzwert zwischen %d und %d enthalten."
+
+msgid "This field must contain a valid company name"
+msgstr "Dieses Feld muss einen gültigen Firmennamen enthalten."
+
+msgid "This field must contain a valid language name"
+msgstr "Dieses Feld muss einen gültigen Sprachnamen enthalten."

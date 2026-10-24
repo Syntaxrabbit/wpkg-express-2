@@ -143,7 +143,7 @@ class SettingBase extends CakeSettingsAppAppModel {
 			]
 		],
 		'Language' => [
-			'rule' => ['inList', ['eng', 'rus']],
+			'rule' => ['inList', ['eng', 'deu', 'rus']],
 			'message' => 'This field must contain a valid language name',
 			'required' => true,
 			'allowEmpty' => false,

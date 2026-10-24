@@ -1,0 +1,30 @@
+# German package priorities.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Priority soft"
+msgstr "Prioritätssoftware"
+
+msgid "Drivers"
+msgstr "Treiber"
+
+msgid "Libraries"
+msgstr "Bibliotheken"
+
+msgid "System utilities"
+msgstr "Systemprogramme"
+
+msgid "Wpkg"
+msgstr "WPKG"

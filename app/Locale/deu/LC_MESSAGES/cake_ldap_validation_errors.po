@@ -1,0 +1,66 @@
+# German CakeLdap validation messages.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Distinguished name of employee is not unique"
+msgstr "Der Distinguished Name des Mitarbeiters ist nicht eindeutig."
+
+msgid "GUID of employee is not unique"
+msgstr "Die GUID des Mitarbeiters ist nicht eindeutig."
+
+msgid "Incorrect E-mail address"
+msgstr "Ungültige E-Mail-Adresse"
+
+msgid "Incorrect GUID of employee"
+msgstr "Ungültige GUID des Mitarbeiters"
+
+msgid "Incorrect distinguished name of employee"
+msgstr "Ungültiger Distinguished Name des Mitarbeiters"
+
+msgid "Incorrect first name of employee"
+msgstr "Ungültiger Vorname des Mitarbeiters"
+
+msgid "Incorrect full name of employee"
+msgstr "Ungültiger vollständiger Name des Mitarbeiters"
+
+msgid "Incorrect last name of employee"
+msgstr "Ungültiger Nachname des Mitarbeiters"
+
+msgid "Incorrect middle name of employee"
+msgstr "Ungültiger zweiter Vorname des Mitarbeiters"
+
+msgid "Incorrect name of department"
+msgstr "Ungültiger Abteilungsname"
+
+msgid "Incorrect position of employee"
+msgstr "Ungültige Position des Mitarbeiters"
+
+msgid "Incorrect primary key"
+msgstr "Ungültiger Primärschlüssel"
+
+msgid "Incorrect value"
+msgstr "Ungültiger Wert"
+
+msgid "Name of department is not unique"
+msgstr "Der Abteilungsname ist nicht eindeutig."
+
+msgid "This field must contain a valid local telephone number."
+msgstr "Dieses Feld muss eine gültige Festnetznummer enthalten."
+
+msgid "This field must contain a valid mobile telephone number."
+msgstr "Dieses Feld muss eine gültige Mobiltelefonnummer enthalten."
+
+msgid "You must enter password."
+msgstr "Sie müssen ein Passwort eingeben."
+
+msgid "You must enter username."
+msgstr "Sie müssen einen Benutzernamen eingeben."

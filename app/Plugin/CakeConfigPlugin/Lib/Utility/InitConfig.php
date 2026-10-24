@@ -143,7 +143,18 @@ class InitConfig {
 		// Local config without extra config file
 		$conf = $this->getConfig();
 
-		$cachePath = 'static_cfg_' . Inflector::underscore($pluginName) . '_' . $language;
+		$configFiles = [
+			$this->path . $configFile . '.php',
+			CakePlugin::path($pluginName) . 'Config' . DS . $configFile . '.php'
+		];
+		$configVersion = '';
+		foreach ($configFiles as $configFilePath) {
+			if (is_file($configFilePath)) {
+				$configVersion .= hash_file('sha256', $configFilePath);
+			}
+		}
+		$cachePath = 'static_cfg_' . Inflector::underscore($pluginName) . '_' . $language . '_' .
+			substr(hash('sha256', $configVersion), 0, 16);
 		$cached = Cache::read($cachePath, CAKE_CONFIG_PLUGIN_CACHE_CFG);
 		if ($cached !== false) {
 			$conf = Hash::mergeDiff($conf, (array)$cached);

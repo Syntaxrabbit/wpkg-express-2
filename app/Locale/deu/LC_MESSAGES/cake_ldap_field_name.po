@@ -1,0 +1,153 @@
+# German CakeLdap employee field labels.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Birthd."
+msgstr "Geb."
+
+msgid "Birthday"
+msgstr "Geburtstag"
+
+msgid "Block"
+msgstr "Sperren"
+
+msgid "Comp."
+msgstr "Firma"
+
+msgid "Comp. name"
+msgstr "Firmenname"
+
+msgid "Company name"
+msgstr "Firmenname"
+
+msgid "Computer"
+msgstr "Computer"
+
+msgid "Depart."
+msgstr "Abt."
+
+msgid "Department"
+msgstr "Abteilung"
+
+msgid "Displ. name"
+msgstr "Anzeigename"
+
+msgid "Display name"
+msgstr "Anzeigename"
+
+msgid "Disting. name"
+msgstr "Distinguished Name"
+
+msgid "Distinguished name"
+msgstr "Distinguished Name"
+
+msgid "E-mail"
+msgstr "E-Mail"
+
+msgid "Empl. ID"
+msgstr "Mitarb.-ID"
+
+msgid "Employee ID"
+msgstr "Mitarbeiter-ID"
+
+msgid "Full name"
+msgstr "Vollständiger Name"
+
+msgid "GUID"
+msgstr "GUID"
+
+msgid "Giv. name"
+msgstr "Vorname"
+
+msgid "Given name"
+msgstr "Vorname"
+
+msgid "Init."
+msgstr "Initialen"
+
+msgid "Initials"
+msgstr "Initialen"
+
+msgid "Manag."
+msgstr "Vorges."
+
+msgid "Manager"
+msgstr "Vorgesetzter"
+
+msgid "Mid. name"
+msgstr "Zweitname"
+
+msgid "Middle name"
+msgstr "Zweiter Vorname"
+
+msgid "Mob. tel."
+msgstr "Mobil"
+
+msgid "Mobile telephone"
+msgstr "Mobiltelefon"
+
+msgid "Office"
+msgstr "Büro"
+
+msgid "Office room"
+msgstr "Büroraum"
+
+msgid "Other mob. tel."
+msgstr "Weiteres Mobil"
+
+msgid "Other mobile telephone"
+msgstr "Weiteres Mobiltelefon"
+
+msgid "Other tel."
+msgstr "Weiteres Telefon"
+
+msgid "Other telephone"
+msgstr "Weiteres Telefon"
+
+msgid "Photo"
+msgstr "Foto"
+
+msgid "Pos."
+msgstr "Position"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "SIP tel."
+msgstr "SIP-Tel."
+
+msgid "SIP telephone"
+msgstr "SIP-Telefon"
+
+msgid "Subdiv."
+msgstr "Bereich"
+
+msgid "Subdivision"
+msgstr "Unterabteilung"
+
+msgid "Subord."
+msgstr "Mitarb."
+
+msgid "Subordinate"
+msgstr "Unterstellter Mitarbeiter"
+
+msgid "Surn."
+msgstr "Nachn."
+
+msgid "Surname"
+msgstr "Nachname"
+
+msgid "Tel."
+msgstr "Tel."
+
+msgid "Telephone"
+msgstr "Telefon"

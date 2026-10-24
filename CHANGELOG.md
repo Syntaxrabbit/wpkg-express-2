@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.2.0 (2026-10-24)
+
+### New
+
+* Added German translations for the web interface.
+
+
 ## v1.1.6 (2026-10-24)
 
 ### Fix

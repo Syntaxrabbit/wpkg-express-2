@@ -1,0 +1,87 @@
+# German check validation messages for WPKG Express II.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Invalid check reference ID."
+msgstr "Die Referenz-ID der Prüfung ist ungültig."
+
+msgid "Invalid check type."
+msgstr "Der Prüfungstyp ist ungültig."
+
+msgid "Check type attribute is invalid."
+msgstr "Das Attribut des Prüfungstyps ist ungültig."
+
+msgid "Check condition attribute is invalid."
+msgstr "Das Bedingungsattribut der Prüfung ist ungültig."
+
+msgid "You must enter a registry path."
+msgstr "Sie müssen einen Registrierungspfad angeben."
+
+msgid "You must enter a registry value."
+msgstr "Sie müssen einen Registrierungswert angeben."
+
+msgid "You must enter a file path."
+msgstr "Sie müssen einen Dateipfad angeben."
+
+msgid "You must enter a file size."
+msgstr "Sie müssen eine Dateigröße angeben."
+
+msgid "You must enter a file version."
+msgstr "Sie müssen eine Dateiversion angeben."
+
+msgid "You must enter a file modification date."
+msgstr "Sie müssen ein Änderungsdatum der Datei angeben."
+
+msgid "You must enter a file creation date."
+msgstr "Sie müssen ein Erstellungsdatum der Datei angeben."
+
+msgid "You must enter a file access date."
+msgstr "Sie müssen ein Zugriffsdatum der Datei angeben."
+
+msgid "You must enter a Add/Remove program name."
+msgstr "Sie müssen den Namen des Programms unter \"Programme und Features\" angeben."
+
+msgid "You must enter a program version."
+msgstr "Sie müssen eine Programmversion angeben."
+
+msgid "You must enter a executable path."
+msgstr "Sie müssen einen Pfad zur ausführbaren Datei angeben."
+
+msgid "You must enter a exit code."
+msgstr "Sie müssen einen Beendigungscode angeben."
+
+msgid "You must enter a host name."
+msgstr "Sie müssen einen Hostnamen angeben."
+
+msgid "You must enter a OS."
+msgstr "Sie müssen ein Betriebssystem angeben."
+
+msgid "You must enter a architecture."
+msgstr "Sie müssen eine Architektur angeben."
+
+msgid "You must enter a ip addresses."
+msgstr "Sie müssen eine IP-Adresse angeben."
+
+msgid "You must enter a domain name."
+msgstr "Sie müssen einen Domänennamen angeben."
+
+msgid "You must enter a groups."
+msgstr "Sie müssen Gruppen angeben."
+
+msgid "You must enter a language ID."
+msgstr "Sie müssen eine Sprach-ID angeben."
+
+msgid "You must enter a language ID OS."
+msgstr "Sie müssen eine Sprach-ID des Betriebssystems angeben."
+
+msgid "You must enter check of environment variables."
+msgstr "Sie müssen eine Prüfung der Umgebungsvariablen angeben."

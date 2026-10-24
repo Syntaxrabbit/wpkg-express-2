@@ -38,6 +38,7 @@ $config['CakeSettingsApp'] = [
 	// List of languages for UI in format: key - ISO 639-1, value - ISO 639-2
 	'UIlangs' => [
 		'US' => 'eng',
+		'DE' => 'deu',
 		'RU' => 'rus',
 	],
 /*

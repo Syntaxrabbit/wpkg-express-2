@@ -1,0 +1,298 @@
+# German translations for CakePHP.
+msgid ""
+msgstr ""
+"Project-Id-Version: CakePHP\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "The requested address %s was not found on this server."
+msgstr "Die angeforderte Adresse %s wurde auf diesem Server nicht gefunden."
+
+msgid "An Internal Error Has Occurred."
+msgstr "Ein interner Fehler ist aufgetreten."
+
+msgid "Invalid %s"
+msgstr "Ungültige(r/s) %s"
+
+msgid "updated"
+msgstr "aktualisiert"
+
+msgid "saved"
+msgstr "gespeichert"
+
+msgid "The %1$s has been %2$s"
+msgstr "%1$s wurde %2$s"
+
+msgid "Please correct errors below."
+msgstr "Bitte korrigieren Sie die folgenden Fehler."
+
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr "%1$s mit der ID %2$s wurde gelöscht."
+
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr "Beim Löschen von %1$s mit der ID %2$s ist ein Fehler aufgetreten."
+
+msgid "You are not authorized to access that location."
+msgstr "Sie sind nicht berechtigt, auf diese Seite zuzugreifen."
+
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+msgid "This field cannot be left blank"
+msgstr "Dieses Feld darf nicht leer sein."
+
+msgid "The requested file was not found"
+msgstr "Die angeforderte Datei wurde nicht gefunden."
+
+msgid "and"
+msgstr "und"
+
+msgid "Today, %s"
+msgstr "Heute, %s"
+
+msgid "Yesterday, %s"
+msgstr "Gestern, %s"
+
+msgid "Tomorrow, %s"
+msgstr "Morgen, %s"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Scaffold :: "
+msgstr "Scaffold :: "
+
+msgid "%s KB"
+msgstr "%s KB"
+
+msgid "%s MB"
+msgstr "%s MB"
+
+msgid "%s GB"
+msgstr "%s GB"
+
+msgid "%s TB"
+msgstr "%s TB"
+
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] "%d Byte"
+msgstr[1] "%d Byte"
+
+msgid "On %s %s"
+msgstr "Am %s um %s"
+
+msgid "%s ago"
+msgstr "vor %s"
+
+msgid "in %s"
+msgstr "in %s"
+
+msgid "on %s"
+msgstr "am %s"
+
+msgid "just now"
+msgstr "gerade eben"
+
+msgid "in about a second"
+msgstr "in etwa einer Sekunde"
+
+msgid "in about a minute"
+msgstr "in etwa einer Minute"
+
+msgid "in about an hour"
+msgstr "in etwa einer Stunde"
+
+msgid "in about a day"
+msgstr "in etwa einem Tag"
+
+msgid "in about a week"
+msgstr "in etwa einer Woche"
+
+msgid "in about a year"
+msgstr "in etwa einem Jahr"
+
+msgid "about a second ago"
+msgstr "vor etwa einer Sekunde"
+
+msgid "about a minute ago"
+msgstr "vor etwa einer Minute"
+
+msgid "about an hour ago"
+msgstr "vor etwa einer Stunde"
+
+msgid "about a day ago"
+msgstr "vor etwa einem Tag"
+
+msgid "about a week ago"
+msgstr "vor etwa einer Woche"
+
+msgid "about a year ago"
+msgstr "vor etwa einem Jahr"
+
+msgid "days"
+msgstr "Tage"
+
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "%d Jahr"
+msgstr[1] "%d Jahre"
+
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d Monat"
+msgstr[1] "%d Monate"
+
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d Woche"
+msgstr[1] "%d Wochen"
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d Tag"
+msgstr[1] "%d Tage"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d Stunde"
+msgstr[1] "%d Stunden"
+
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d Minute"
+msgstr[1] "%d Minuten"
+
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d Sekunde"
+msgstr[1] "%d Sekunden"
+
+msgid "A view block with the name '%s' is already/still open."
+msgstr "Ein View-Block mit dem Namen '%s' ist bereits geöffnet."
+
+msgid "Error in field %s"
+msgstr "Fehler im Feld %s"
+
+msgid "New %s"
+msgstr "Neue(r) %s"
+
+msgid "Edit %s"
+msgstr "%s bearbeiten"
+
+msgid "empty"
+msgstr "leer"
+
+msgid "Submit"
+msgstr "Absenden"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "März"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "Home"
+msgstr "Startseite"
+
+msgid "Unable to find the requested image to output as base64!"
+msgstr "Das angeforderte Bild für die Base64-Ausgabe wurde nicht gefunden."
+
+msgid " of "
+msgstr " von "
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Are you sure you want to delete # %s?"
+msgstr "Möchten Sie # %s wirklich löschen?"
+
+msgid "List"
+msgstr "Liste"
+
+msgid "List %s"
+msgstr "Liste: %s"
+
+msgid "View"
+msgstr "Anzeigen"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Seite {:page} von {:pages}: {:current} von insgesamt {:count} Einträgen, von Eintrag {:start} bis {:end}"
+
+msgid "previous"
+msgstr "vorherige"
+
+msgid "next"
+msgstr "nächste"
+
+msgid "View %s"
+msgstr "%s anzeigen"
+
+msgid "Delete %s"
+msgstr "%s löschen"
+
+msgid "Related %s"
+msgstr "Zugehörige %s"

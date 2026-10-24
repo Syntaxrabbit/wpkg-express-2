@@ -1,0 +1,79 @@
+# German translations for CakeSearchInfo.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Select all"
+msgstr "Alle auswählen"
+
+msgid "Invalid fields for filter of search scope."
+msgstr "Ungültige Felder für den Suchbereichsfilter."
+
+msgid "No results for searching \"%s\""
+msgstr "Keine Ergebnisse für die Suche nach \"%s\""
+
+msgid "Input minimum %d %s"
+msgstr "Geben Sie mindestens %d %s ein"
+
+msgid "Enter your query in the search bar"
+msgstr "Geben Sie Ihre Suchanfrage in die Suchleiste ein"
+
+msgid "character"
+msgid_plural "characters"
+msgstr[0] "Zeichen"
+msgstr[1] "Zeichen"
+
+msgid "Search information"
+msgstr "Suchinformationen"
+
+msgid "Search settings"
+msgstr "Sucheinstellungen"
+
+msgid "In any part of the string"
+msgstr "An beliebiger Stelle im Text"
+
+msgid "The scope of the search"
+msgstr "Suchbereich"
+
+msgid "Deselect all"
+msgstr "Auswahl aufheben"
+
+msgid "Set search scope filter"
+msgstr "Suchbereichsfilter festlegen"
+
+msgid "Showing results for \"%s\""
+msgstr "Ergebnisse für \"%s\" werden angezeigt"
+
+msgid "Search instead \"%s\""
+msgstr "Stattdessen nach \"%s\" suchen"
+
+msgid "Results of search \"%s\""
+msgstr "Suchergebnisse für \"%s\""
+
+msgid "Found %s %s."
+msgstr "%s %s gefunden."
+
+msgid "&lt;None&gt;"
+msgstr "&lt;Keine&gt;"
+
+msgid "result"
+msgid_plural "results"
+msgstr[0] "Ergebnis"
+msgstr[1] "Ergebnisse"
+
+msgid "Results of search"
+msgstr "Suchergebnisse"
+
+msgid "New search"
+msgstr "Neue Suche"

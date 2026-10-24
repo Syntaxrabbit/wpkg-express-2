@@ -1,0 +1,60 @@
+# German CakeInstaller configuration field labels.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "LDAP host"
+msgstr "LDAP-Host"
+
+msgid "User principal name (user@fabrikam.com)"
+msgstr "Benutzerprinzipalname (user@fabrikam.com)"
+
+msgid "The DN of the search base (DC=fabrikam,DC=com)"
+msgstr "Der DN der Suchbasis (DC=fabrikam,DC=com)"
+
+msgid "LDAP server type"
+msgstr "LDAP-Servertyp"
+
+msgid "Use TLS?"
+msgstr "TLS verwenden?"
+
+msgid "Version of LDAP protocol"
+msgstr "LDAP-Protokollversion"
+
+msgid "Datasource"
+msgstr "Datenquelle"
+
+msgid "Persistent connection?"
+msgstr "Dauerhafte Verbindung?"
+
+msgid "Database host"
+msgstr "Datenbankhost"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "User"
+msgstr "Benutzer"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Database name"
+msgstr "Datenbankname"
+
+msgid "Table schema"
+msgstr "Tabellenschema"
+
+msgid "Table prefix"
+msgstr "Tabellenpräfix"
+
+msgid "Table encoding"
+msgstr "Tabellenkodierung"

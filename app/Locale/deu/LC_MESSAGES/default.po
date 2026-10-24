@@ -1,0 +1,2970 @@
+# German translations for WPKG Express II.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Packages"
+msgstr "Pakete"
+
+msgid "Profiles"
+msgstr "Profile"
+
+msgid "Hosts"
+msgstr "Hosts"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Checks"
+msgstr "Prüfungen"
+
+msgid "Variables"
+msgstr "Variablen"
+
+msgid "Global variables"
+msgstr "Globale Variablen"
+
+msgid "Package actions"
+msgstr "Paketaktionen"
+
+msgid "Package priorities"
+msgstr "Paketprioritäten"
+
+msgid "Exit codes"
+msgstr "Beendigungscodes"
+
+msgid "Reports"
+msgstr "Berichte"
+
+msgid "Logs"
+msgstr "Protokolle"
+
+msgid "Archive"
+msgstr "Archiv"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Package ID"
+msgstr "Paket-ID"
+
+msgid "Profile ID"
+msgstr "Profil-ID"
+
+msgid "Host ID"
+msgstr "Host-ID"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Notes"
+msgstr "Notizen"
+
+msgid "Index"
+msgstr "Übersicht"
+
+msgid "Index of packages"
+msgstr "Paketübersicht"
+
+msgid "Information of package"
+msgstr "Paketinformationen"
+
+msgid "Viewing"
+msgstr "Anzeigen"
+
+msgid "Adding"
+msgstr "Hinzufügen"
+
+msgid "Editing"
+msgstr "Bearbeiten"
+
+msgid "Adding package"
+msgstr "Paket hinzufügen"
+
+msgid "Editing package"
+msgstr "Paket bearbeiten"
+
+msgid "Adding host"
+msgstr "Host hinzufügen"
+
+msgid "Invalid ID for host"
+msgstr "Ungültige Host-ID"
+
+msgid "Editing host"
+msgstr "Host bearbeiten"
+
+msgid "Hosts template list is empty"
+msgstr "Die Host-Vorlagenliste ist leer."
+
+msgid "Generating XML put in queue..."
+msgstr "XML-Erstellung wurde in die Warteschlange gestellt ..."
+
+msgid "Generating XML put in queue unsuccessfully"
+msgstr "XML-Erstellung konnte nicht in die Warteschlange gestellt werden."
+
+msgid "Generating"
+msgstr "Wird erstellt"
+
+msgid "Generating host"
+msgstr "Host wird erstellt"
+
+msgid "Disabling unused hosts and profiles put in queue..."
+msgstr "Deaktivierung ungenutzter Hosts und Profile wurde in die Warteschlange gestellt ..."
+
+msgid "Invalid request"
+msgstr "Ungültige Anfrage"
+
+msgid "Refresh logs"
+msgstr "Protokolle aktualisieren"
+
+msgid "Clear logs"
+msgstr "Protokolle leeren"
+
+msgid "Previewing"
+msgstr "Vorschau"
+
+msgid "Preview logs of host '%s'"
+msgstr "Protokolle von Host '%s' anzeigen"
+
+msgid "Clear logs of host"
+msgstr "Protokolle des Hosts leeren"
+
+msgid "Parsing logs put in queue..."
+msgstr "Verarbeitung der Protokolle wurde in die Warteschlange gestellt ..."
+
+msgid "Parsing logs put in queue unsuccessfully"
+msgstr "Verarbeitung der Protokolle konnte nicht in die Warteschlange gestellt werden."
+
+msgid "The logs has been cleared."
+msgstr "Die Protokolle wurden geleert."
+
+msgid "The logs could not be cleared. Please, try again."
+msgstr "Die Protokolle konnten nicht geleert werden. Bitte versuchen Sie es erneut."
+
+msgid "Package priorities not found"
+msgstr "Paketprioritäten nicht gefunden"
+
+msgid "Adding package priority"
+msgstr "Paketpriorität hinzufügen"
+
+msgid "Invalid ID for package priority"
+msgstr "Ungültige Paketprioritäts-ID"
+
+msgid "Editing package priority"
+msgstr "Paketpriorität bearbeiten"
+
+msgid "Archive of packages"
+msgstr "Paketarchiv"
+
+msgid "Archive of package"
+msgstr "Paketarchiv"
+
+msgid "There are no packages to add/remove"
+msgstr "Es gibt keine Pakete zum Hinzufügen oder Entfernen."
+
+msgid "Exists in profiles"
+msgstr "In Profilen vorhanden"
+
+msgid "Modifying list of profiles"
+msgstr "Profilliste bearbeiten"
+
+msgid "Adding profile"
+msgstr "Profil hinzufügen"
+
+msgid "Invalid ID for profile"
+msgstr "Ungültige Profil-ID"
+
+msgid "Editing profile"
+msgstr "Profil bearbeiten"
+
+msgid "Associating packages"
+msgstr "Pakete zuordnen"
+
+msgid "Modifying associated packages for profile"
+msgstr "Zugeordnete Pakete des Profils bearbeiten"
+
+msgid "There are no hosts to add/remove"
+msgstr "Es gibt keine Hosts zum Hinzufügen oder Entfernen."
+
+msgid "Exists in hosts"
+msgstr "Auf Hosts vorhanden"
+
+msgid "Modifying list of hosts"
+msgstr "Hostliste bearbeiten"
+
+msgid "Invalid ID for package in profile"
+msgstr "Ungültige Paket-ID im Profil"
+
+msgid "Editing installation date of package"
+msgstr "Installationsdatum des Pakets bearbeiten"
+
+msgid "Refresh reports"
+msgstr "Berichte aktualisieren"
+
+msgid "Clear reports"
+msgstr "Berichte leeren"
+
+msgid "Parsing client database files put in queue..."
+msgstr "Verarbeitung der Client-Datenbankdateien wurde in die Warteschlange gestellt ..."
+
+msgid "Parsing client database files put in queue unsuccessfully"
+msgstr "Client-Datenbankdateien konnten nicht zur Verarbeitung in die Warteschlange gestellt werden."
+
+msgid "The reports has been cleared."
+msgstr "Die Berichte wurden geleert."
+
+msgid "The reports could not be cleared. Please, try again."
+msgstr "Die Berichte konnten nicht geleert werden. Bitte versuchen Sie es erneut."
+
+msgid "The client database has been renamed."
+msgstr "Die Client-Datenbank wurde umbenannt."
+
+msgid "The client database could not be renamed. Please, try again."
+msgstr "Die Client-Datenbank konnte nicht umbenannt werden. Bitte versuchen Sie es erneut."
+
+msgid "File selection"
+msgstr "Dateiauswahl"
+
+msgid "Uploading XML files"
+msgstr "XML-Dateien hochladen"
+
+msgid "Adding variable"
+msgstr "Variable hinzufügen"
+
+msgid "Invalid ID for variable"
+msgstr "Ungültige Variablen-ID"
+
+msgid "Editing variable"
+msgstr "Variable bearbeiten"
+
+msgid "WPI categories not found"
+msgstr "WPI-Kategorien nicht gefunden"
+
+msgid "Adding WPI category"
+msgstr "WPI-Kategorie hinzufügen"
+
+msgid "Invalid ID for WPI category"
+msgstr "Ungültige WPI-Kategorie-ID"
+
+msgid "Editing WPI category"
+msgstr "WPI-Kategorie bearbeiten"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Categories of packages"
+msgstr "Paketkategorien"
+
+msgid "Configuration of WPI"
+msgstr "WPI-Konfiguration"
+
+msgid "Download WPI configuration file"
+msgstr "WPI-Konfigurationsdatei herunterladen"
+
+msgid "Configuration of WPKG for WPI"
+msgstr "WPKG-Konfiguration für WPI"
+
+msgid "Download WPKG configuration file for WPI"
+msgstr "WPKG-Konfigurationsdatei für WPI herunterladen"
+
+msgid "Profiles of WPKG for WPI"
+msgstr "WPKG-Profile für WPI"
+
+msgid "Download WPKG profiles file for WPI"
+msgstr "WPKG-Profildatei für WPI herunterladen"
+
+msgid "Hosts of WPKG for WPI"
+msgstr "WPKG-Hosts für WPI"
+
+msgid "Download WPKG hosts file for WPI"
+msgstr "WPKG-Hostdatei für WPI herunterladen"
+
+msgid "Invalid ID for WPI package"
+msgstr "Ungültige WPI-Paket-ID"
+
+msgid "Invalid XML type"
+msgstr "Ungültiger XML-Typ"
+
+msgid "Adding WPI package"
+msgstr "WPI-Paket hinzufügen"
+
+msgid "Editing WPI package"
+msgstr "WPI-Paket bearbeiten"
+
+msgid "selected by default"
+msgstr "standardmäßig ausgewählt"
+
+msgid "don't selected by default"
+msgstr "standardmäßig nicht ausgewählt"
+
+msgid "forced selected"
+msgstr "zwangsweise ausgewählt"
+
+msgid "don't selected forcibly"
+msgstr "nicht zwangsweise ausgewählt"
+
+msgid "Invalid target model"
+msgstr "Ungültiges Zielmodell"
+
+msgid "Target model is not found"
+msgstr "Zielmodell nicht gefunden"
+
+msgid "Invalid ID for %s"
+msgstr "Ungültige ID für %s"
+
+msgid "Component '%s' is not found in target controller"
+msgstr "Komponente '%s' im Zielcontroller nicht gefunden"
+
+msgid "Behavior '%s' is not loaded in target model"
+msgstr "Verhalten '%s' wurde im Zielmodell nicht geladen"
+
+msgid "The %s has been %s."
+msgstr "%s wurde %s."
+
+msgid "The %s could not be %s. Please, try again."
+msgstr "%s konnte nicht %s werden. Bitte versuchen Sie es erneut."
+
+msgid "enabled"
+msgstr "aktiviert"
+
+msgid "disabled"
+msgstr "deaktiviert"
+
+msgid "use as template"
+msgstr "als Vorlage verwenden"
+
+msgid "don't used as template"
+msgstr "nicht als Vorlage verwenden"
+
+msgid "Method '%s' is not found in target model"
+msgstr "Methode '%s' wurde im Zielmodell nicht gefunden"
+
+msgid "Preview XML"
+msgstr "XML-Vorschau"
+
+msgid "Editing XML information of this %s"
+msgstr "XML-Informationen für %s bearbeiten"
+
+msgid "Download XML file"
+msgstr "XML-Datei herunterladen"
+
+msgid "XSD schema validation passed."
+msgstr "Die XSD-Schemaüberprüfung war erfolgreich."
+
+msgid "Template list is empty"
+msgstr "Die Vorlagenliste ist leer."
+
+msgid "The %s has been created."
+msgstr "%s wurde erstellt."
+
+msgid "The %s could not be created. Please, try again."
+msgstr "%s konnte nicht erstellt werden. Bitte versuchen Sie es erneut."
+
+msgid "Creating"
+msgstr "Erstellen"
+
+msgid "Creating a new %s based on the template"
+msgstr "Neue %s auf Grundlage der Vorlage erstellen"
+
+msgid "The %s has been copied."
+msgstr "%s wurde kopiert."
+
+msgid "The %s could not be copied. Please, try again."
+msgstr "%s konnte nicht kopiert werden. Bitte versuchen Sie es erneut."
+
+msgid "Error on setting scope of tree (list)"
+msgstr "Fehler beim Festlegen des Baumumfangs (Liste)"
+
+msgid "Verifying state tree (list)"
+msgstr "Statusbaum (Liste) überprüfen"
+
+msgid "Recovery state of tree (list)"
+msgstr "Status des Baums (Liste) wiederherstellen"
+
+msgid "Recovering tree (list) put in queue..."
+msgstr "Wiederherstellung des Baums (Liste) wurde in die Warteschlange gestellt ..."
+
+msgid "Recovering tree (list) put in queue unsuccessfully"
+msgstr "Baum (Liste) konnte nicht zur Wiederherstellung in die Warteschlange gestellt werden."
+
+msgid "Disable selected items"
+msgstr "Ausgewählte Einträge deaktivieren"
+
+msgid "Enable selected items"
+msgstr "Ausgewählte Einträge aktivieren"
+
+msgid "Processing selected items put in queue..."
+msgstr "Verarbeitung der ausgewählten Einträge wurde in die Warteschlange gestellt ..."
+
+msgid "Processing selected items put in queue unsuccessfully."
+msgstr "Ausgewählte Einträge konnten nicht zur Verarbeitung in die Warteschlange gestellt werden."
+
+msgid "%s not found"
+msgstr "%s nicht gefunden"
+
+msgid "Create from template"
+msgstr "Aus Vorlage erstellen"
+
+msgid "Create %s from template"
+msgstr "%s aus Vorlage erstellen"
+
+msgid "Preview full XML file"
+msgstr "Vollständige XML-Datei in der Vorschau anzeigen"
+
+msgid "Download XML"
+msgstr "XML herunterladen"
+
+msgid "Download full XML file"
+msgstr "Vollständige XML-Datei herunterladen"
+
+msgid "Editing %s"
+msgstr "%s bearbeiten"
+
+msgid "Editing information of this %s"
+msgstr "Informationen zu %s bearbeiten"
+
+msgid "Preview XML file"
+msgstr "XML-Datei in der Vorschau anzeigen"
+
+msgid "Graph of relations"
+msgstr "Beziehungsdiagramm"
+
+msgid "Chart"
+msgstr "Diagramm"
+
+msgid "Copy %s"
+msgstr "%s kopieren"
+
+msgid "Not specified"
+msgstr "Nicht angegeben"
+
+msgid "OS"
+msgstr "Betriebssystem"
+
+msgid "Language ID"
+msgstr "Sprach-ID"
+
+msgid "Language ID OS"
+msgstr "Sprach-ID des Betriebssystems"
+
+msgid "Parsing PCRE on attributes"
+msgstr "PCRE-Muster in Attributen auswerten"
+
+msgid "Parsing of regular expressions in the extended attributes."
+msgstr "Reguläre Ausdrücke in erweiterten Attributen auswerten."
+
+msgid "Host name"
+msgstr "Hostname"
+
+msgid "Architecture"
+msgstr "Architektur"
+
+msgid "IP addresses"
+msgstr "IP-Adressen"
+
+msgid "Domain name"
+msgstr "Domänenname"
+
+msgid "Groups"
+msgstr "Gruppen"
+
+msgid "Path"
+msgstr "Pfad"
+
+msgid "Add/remove name"
+msgstr "Name unter \"Programme und Features\""
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Registry key."
+msgstr "Registrierungsschlüssel."
+
+msgid "Registry value. If you are checking the value of a DWORD, make sure to check the decimal and not the hexadecimal value."
+msgstr "Registrierungswert. Prüfen Sie bei einem DWORD-Wert den Dezimalwert und nicht den Hexadezimalwert."
+
+msgid "File path"
+msgstr "Dateipfad"
+
+msgid "File version"
+msgstr "Dateiversion"
+
+msgid "Size"
+msgstr "Größe"
+
+msgid "File size in bytes"
+msgstr "Dateigröße in Byte"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Executable path"
+msgstr "Pfad zur ausführbaren Datei"
+
+msgid "Path to the script to be executed"
+msgstr "Pfad zum auszuführenden Skript"
+
+msgid "Exit code for comparison"
+msgstr "Zu vergleichender Beendigungscode"
+
+msgid "Environment"
+msgstr "Umgebung"
+
+msgid "Check type"
+msgstr "Prüfungstyp"
+
+msgid "Parent"
+msgstr "Übergeordneter Eintrag"
+
+msgid "The kind of check to be performed."
+msgstr "Art der auszuführenden Prüfung."
+
+msgid "Condition"
+msgstr "Bedingung"
+
+msgid "The contents of this field vary depending on the check type and condition."
+msgstr "Der Inhalt dieses Feldes hängt vom Prüfungstyp und von der Bedingung ab."
+
+msgid "Created"
+msgstr "Erstellt"
+
+msgid "Command type"
+msgstr "Befehlstyp"
+
+msgid "Root node"
+msgstr "Stammelement"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Update"
+msgstr "Aktualisieren"
+
+msgid "Package action type"
+msgstr "Paketaktionstyp"
+
+msgid "Exit code type"
+msgstr "Beendigungscode-Typ"
+
+msgid "Reboot"
+msgstr "Neustart"
+
+msgid "Value of exit code."
+msgstr "Wert des Beendigungscodes."
+
+msgid "Hexadecimal"
+msgstr "Hexadezimal"
+
+msgid "Hexadecimal value of exit code. Format: 0x00000000"
+msgstr "Hexadezimalwert des Beendigungscodes. Format: 0x00000000"
+
+msgid "Constant"
+msgstr "Konstante"
+
+msgid "Constant of exit code. Format: letters A-Z, numbers, and underscores."
+msgstr "Konstante des Beendigungscodes. Zulässig sind A-Z, Ziffern und Unterstriche."
+
+msgid "Description of exit code."
+msgstr "Beschreibung des Beendigungscodes."
+
+msgid "Internal authentication"
+msgstr "Interne Authentifizierung"
+
+msgid "XML output"
+msgstr "XML-Ausgabe"
+
+msgid "XML type."
+msgstr "XML-Typ."
+
+msgid "XML"
+msgstr "XML"
+
+msgid "Maximum XML size"
+msgstr "Maximale XML-Größe"
+
+msgid "Create"
+msgstr "Erstellen"
+
+msgid "Database"
+msgstr "Datenbank"
+
+msgid "XML paths"
+msgstr "XML-Pfade"
+
+msgid "Registry paths"
+msgstr "Registrierungspfade"
+
+msgid "XML text"
+msgstr "XML-Text"
+
+msgid "Data"
+msgstr "Daten"
+
+msgid "Information"
+msgstr "Informationen"
+
+msgid "Flags - part 1"
+msgstr "Optionen – Teil 1"
+
+msgid "Flags - part 2"
+msgstr "Optionen – Teil 2"
+
+msgid "Flags - part 3"
+msgstr "Optionen – Teil 3"
+
+msgid "Timeout, command for rebooting, ..."
+msgstr "Zeitlimit, Neustartbefehl usw."
+
+msgid "Filename of the local package database"
+msgstr "Dateiname der lokalen Paketdatenbank"
+
+msgid "Path to the local package database"
+msgstr "Pfad zur lokalen Paketdatenbank"
+
+msgid "Log level"
+msgstr "Protokollierungsstufe"
+
+msgid "Path where the logfiles are written to"
+msgstr "Pfad zum Speichern der Protokolldateien"
+
+msgid "Pattern to generate the log file name"
+msgstr "Muster zum Erzeugen des Protokolldateinamens"
+
+msgid "Registry path"
+msgstr "Registrierungspfad"
+
+msgid "Associated packages"
+msgstr "Zugeordnete Pakete"
+
+msgid "Associated profiles"
+msgstr "Zugeordnete Profile"
+
+msgid "Associated profile"
+msgstr "Zugeordnetes Profil"
+
+msgid "Revision of package"
+msgstr "Paketrevision"
+
+msgid "Package ID, revision, ..."
+msgstr "Paket-ID, Revision usw."
+
+msgid "Data to create"
+msgstr "Zu erstellende Daten"
+
+msgid "Host name, architecture, OS type, IP addresses"
+msgstr "Hostname, Architektur, Betriebssystemtyp, IP-Adressen"
+
+msgid "Domain name, groups member, language ID"
+msgstr "Domänenname, Gruppenmitgliedschaften, Sprach-ID"
+
+msgid "Hostname might contain regular expressions as well as well as IP-address ranges."
+msgstr "Der Hostname kann reguläre Ausdrücke und IP-Adressbereiche enthalten."
+
+msgid "Fatal errors"
+msgstr "Schwerwiegende Fehler"
+
+msgid "Forced selected"
+msgstr "Erzwungen ausgewählt"
+
+msgid "Forcibly selected"
+msgstr "Erzwungen ausgewählt"
+
+msgid "full data of profiles"
+msgstr "vollständige Profildaten"
+
+msgid "full data of hosts"
+msgstr "vollständige Hostdaten"
+
+msgid "Dependencies"
+msgstr "Abhängigkeiten"
+
+msgid "Depends on profiles"
+msgstr "Abhängig von Profilen"
+
+msgid "Chains packages"
+msgstr "Verknüpft Pakete"
+
+msgid "Graph of host"
+msgstr "Hostdiagramm"
+
+msgid "Graph of package"
+msgstr "Paketdiagramm"
+
+msgid "Graph of profile"
+msgstr "Profildiagramm"
+
+msgid "Download file %s"
+msgstr "Datei %s herunterladen"
+
+msgid "Preview file"
+msgstr "Dateivorschau"
+
+msgid "Loading..."
+msgstr "Wird geladen ..."
+
+msgid "Stack trace"
+msgstr "Stacktrace"
+
+msgid "Changing the filter condition"
+msgstr "Filterbedingung ändern"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Human-readable name that identifies this package (e.g. Foo Bar Baz Ultra Edition)."
+msgstr "Lesbarer Name für dieses Paket (z. B. Foo Bar Baz Ultra Edition)."
+
+msgid "An positive integer or positive decimal value that denotes the version/revision of this package (e.g. 1 OR 1.0.3). If you have periods in the revision, you must have at least one digit after each period."
+msgstr "Positive Ganz- oder Dezimalzahl für Version/Revision dieses Pakets (z. B. 1 oder 1.0.3). Nach jedem Punkt muss mindestens eine Ziffer stehen."
+
+msgid "An integer value (any positive non-decimal number) that indicates this package's priority. Higher priorities take precedence over lower priorities (e.g. 10)."
+msgstr "Positive Ganzzahl als Priorität dieses Pakets. Höhere Prioritäten werden vor niedrigeren verarbeitet (z. B. 10)."
+
+msgid "Priorities"
+msgstr "Prioritäten"
+
+msgid "Open in new window"
+msgstr "In neuem Fenster öffnen"
+
+msgid "Execute"
+msgstr "Ausführen"
+
+msgid "Notify"
+msgstr "Benachrichtigen"
+
+msgid "Precheck install"
+msgstr "Vorprüfung bei der Installation"
+
+msgid "Precheck remove"
+msgstr "Vorprüfung beim Entfernen"
+
+msgid "Precheck upgrade"
+msgstr "Vorprüfung beim Aktualisieren"
+
+msgid "Precheck downgrade"
+msgstr "Vorprüfung beim Zurückstufen"
+
+msgid "Additional notes about this package. Not used by WPKG."
+msgstr "Zusätzliche Hinweise zu diesem Paket. Wird von WPKG nicht verwendet."
+
+msgid "Depends on packages"
+msgstr "Abhängig von Paketen"
+
+msgid "Includes packages"
+msgstr "Schließt Pakete ein"
+
+msgid "Priority, reboot, ..."
+msgstr "Priorität, Neustart usw."
+
+msgid "Prechecks"
+msgstr "Vorprüfungen"
+
+msgid "Profiles including this package"
+msgstr "Profile mit diesem Paket"
+
+msgid "Priority name"
+msgstr "Prioritätsname"
+
+msgid "Name of priority the package."
+msgstr "Name der Paketpriorität."
+
+msgid "Priority value"
+msgstr "Prioritätswert"
+
+msgid "Value of priority the package."
+msgstr "Wert der Paketpriorität."
+
+msgid "Package of profile"
+msgstr "Paket des Profils"
+
+msgid "Editing installation date"
+msgstr "Installationsdatum bearbeiten"
+
+msgid "Installation date"
+msgstr "Installationsdatum"
+
+msgid "Date from which the package should be installed (this date or later). Date has to be specified in ISO 8601 format, e.g.: 2018-12-27T15:30:42+03:00."
+msgstr "Datum, ab dem das Paket installiert werden soll. Geben Sie das Datum im ISO-8601-Format an, z. B. 2018-12-27T15:30:42+03:00."
+
+msgid "Uninstallation date"
+msgstr "Deinstallationsdatum"
+
+msgid "Date from which the package should be removed (this date or later). Date has to be specified in ISO 8601 format, e.g.: 2018-12-27T15:30:42+03:00."
+msgstr "Datum, ab dem das Paket entfernt werden soll. Geben Sie das Datum im ISO-8601-Format an, z. B. 2018-12-27T15:30:42+03:00."
+
+msgid "Associated packages of profile"
+msgstr "Dem Profil zugeordnete Pakete"
+
+msgid "Associated packages of this profile"
+msgstr "Diesem Profil zugeordnete Pakete"
+
+msgid "If enabled, this profile will appear in profiles (xml) lists."
+msgstr "Wenn aktiviert, erscheint dieses Profil in den Profil- (XML-)Listen."
+
+msgid "If enabled, this profile is used as a template."
+msgstr "Wenn aktiviert, wird dieses Profil als Vorlage verwendet."
+
+msgid "Unique ID containing only letters, numbers, underscores and hyphens (e.g. base_software OR developer-suite OR complabsoft8)."
+msgstr "Eindeutige ID aus Buchstaben, Ziffern, Unterstrichen und Bindestrichen (z. B. base_software oder developer-suite)."
+
+msgid "Profiles that this profile depends on."
+msgstr "Profile, von denen dieses Profil abhängig ist."
+
+msgid "Additional notes about this profile. Not used by WPKG."
+msgstr "Zusätzliche Hinweise zu diesem Profil. Wird von WPKG nicht verwendet."
+
+msgid "Hosts containing this profile"
+msgstr "Hosts mit diesem Profil"
+
+msgid "Hosts that contain this profile as an additional associated profile."
+msgstr "Hosts, denen dieses Profil zusätzlich zugeordnet ist."
+
+msgid "Template for creating new data"
+msgstr "Vorlage zum Erstellen neuer Daten"
+
+msgid "ID text"
+msgstr "ID-Text"
+
+msgid "ID text of new data"
+msgstr "ID-Text der neuen Daten"
+
+msgid "Additional attribute"
+msgstr "Zusätzliches Attribut"
+
+msgid "Valid XML file types"
+msgstr "Zulässige XML-Dateitypen"
+
+msgid "Maximum XML file size"
+msgstr "Maximale XML-Dateigröße"
+
+msgid "Upload XML file"
+msgstr "XML-Datei hochladen"
+
+msgid "Variable type"
+msgstr "Variablentyp"
+
+msgid "Variable name"
+msgstr "Variablenname"
+
+msgid "Name of variable. Supports autocomplete."
+msgstr "Name der Variable. Autovervollständigung wird unterstützt."
+
+msgid "Value of variable. Supports autocomplete."
+msgstr "Wert der Variable. Autovervollständigung wird unterstützt."
+
+msgid "Package of WPI"
+msgstr "WPI-Paket"
+
+msgid "Category of WPI"
+msgstr "WPI-Kategorie"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Default checked"
+msgstr "Standardmäßig aktiviert"
+
+msgid "Forcibly"
+msgstr "Erzwungen"
+
+msgid "Forcibly execute package"
+msgstr "Paketausführung erzwingen"
+
+msgid "Name of category."
+msgstr "Name der Kategorie."
+
+msgid "No data to display"
+msgstr "Keine Daten zum Anzeigen"
+
+msgid "Please wait. Creating a chart in progress..."
+msgstr "Bitte warten. Das Diagramm wird erstellt ..."
+
+msgid "Error on creating chart"
+msgstr "Fehler beim Erstellen des Diagramms"
+
+msgid "Are you sure you wish to delete this record?"
+msgstr "Möchten Sie diesen Eintrag wirklich löschen?"
+
+msgid "Are you sure you wish to delete exit code '%s'?"
+msgstr "Möchten Sie den Beendigungscode '%s' wirklich löschen?"
+
+msgid "Build graph for host by name. Supports autocomplete."
+msgstr "Diagramm für einen Host anhand des Namens erstellen. Autovervollständigung wird unterstützt."
+
+msgid "Build a graph."
+msgstr "Ein Diagramm erstellen."
+
+msgid "Show full information"
+msgstr "Vollständige Informationen anzeigen"
+
+msgid "Show full information about relations."
+msgstr "Vollständige Informationen zu den Beziehungen anzeigen."
+
+msgid "Please wait. Creating a graph in progress..."
+msgstr "Bitte warten. Das Diagramm wird erstellt ..."
+
+msgid "Disable host"
+msgstr "Host deaktivieren"
+
+msgid "Enable host"
+msgstr "Host aktivieren"
+
+msgid "Don't use as template"
+msgstr "Nicht als Vorlage verwenden"
+
+msgid "template"
+msgstr "Vorlage"
+
+msgid "Use this host as a template"
+msgstr "Diesen Host als Vorlage verwenden"
+
+msgid "Last modified"
+msgstr "Zuletzt geändert"
+
+msgid "Basic information"
+msgstr "Allgemeine Informationen"
+
+msgid "Extended information"
+msgstr "Erweiterte Informationen"
+
+msgid "Disable package"
+msgstr "Paket deaktivieren"
+
+msgid "Enable package"
+msgstr "Paket aktivieren"
+
+msgid "Use this package as a template"
+msgstr "Dieses Paket als Vorlage verwenden"
+
+msgid "Inclusions"
+msgstr "Einschlüsse"
+
+msgid "Chains"
+msgstr "Paketketten"
+
+msgid "Exists in dependencies"
+msgstr "In Abhängigkeiten vorhanden"
+
+msgid "Exists in inclusions"
+msgstr "In Einschlüssen vorhanden"
+
+msgid "Exists in chains"
+msgstr "In Paketketten vorhanden"
+
+msgid "Install"
+msgstr "Installieren"
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Upgrade"
+msgstr "Aktualisieren"
+
+msgid "Downgrade"
+msgstr "Zurückstufen"
+
+msgid "Preview type"
+msgstr "Vorschautyp"
+
+msgid "Disable profile"
+msgstr "Profil deaktivieren"
+
+msgid "Enable profile"
+msgstr "Profil aktivieren"
+
+msgid "Use this profile as a template"
+msgstr "Dieses Profil als Vorlage verwenden"
+
+msgid "Modify list of associated packages"
+msgstr "Liste der zugeordneten Pakete bearbeiten"
+
+msgid "Main profiles"
+msgstr "Hauptprofile"
+
+msgid "Instal."
+msgstr "Install."
+
+msgid "Uninst."
+msgstr "Deinstall."
+
+msgid "Result of verifying"
+msgstr "Prüfergebnis"
+
+msgid "Package actions type"
+msgstr "Paketaktionstypen"
+
+msgid "Recovery state of list package actions"
+msgstr "Status der Paketaktionsliste wiederherstellen"
+
+msgid "Statistics"
+msgstr "Statistiken"
+
+msgid "Show or hide move buttons"
+msgstr "Verschiebeschaltflächen ein- oder ausblenden"
+
+msgid "Are you sure you wish to delete variable '%s'?"
+msgstr "Möchten Sie die Variable '%s' wirklich löschen?"
+
+msgid "Don't selected by default"
+msgstr "Standardmäßig nicht ausgewählt"
+
+msgid "Selected by default"
+msgstr "Standardmäßig ausgewählt"
+
+msgid "Don't selected forcibly"
+msgstr "Nicht zwangsweise ausgewählt"
+
+msgid "Are you sure you wish to delete action type '%s'?"
+msgstr "Möchten Sie den Aktionstyp '%s' wirklich löschen?"
+
+msgid "View XML"
+msgstr "XML anzeigen"
+
+msgid "Are you sure you wish to delete package priority '%s'?"
+msgstr "Möchten Sie die Paketpriorität '%s' wirklich löschen?"
+
+msgid "Are you sure you wish to delete WPI category '%s'?"
+msgstr "Möchten Sie die WPI-Kategorie '%s' wirklich löschen?"
+
+msgid "Are you sure you wish to restore package from archive '%s'?"
+msgstr "Möchten Sie das Paket '%s' wirklich aus dem Archiv wiederherstellen?"
+
+msgid "Restore data from recycle bin"
+msgstr "Daten aus dem Papierkorb wiederherstellen"
+
+msgid "Are you sure you wish to restore data '%s' from recycle bin?"
+msgstr "Möchten Sie die Daten '%s' wirklich aus dem Papierkorb wiederherstellen?"
+
+msgid "Are you sure you wish to delete data '%s' from recycle bin?"
+msgstr "Möchten Sie die Daten '%s' wirklich aus dem Papierkorb löschen?"
+
+msgid "Create host from this template"
+msgstr "Host aus dieser Vorlage erstellen"
+
+msgid "Copy host"
+msgstr "Host kopieren"
+
+msgid "Are you sure you wish to copy host '%s'?"
+msgstr "Möchten Sie den Host '%s' wirklich kopieren?"
+
+msgid "Are you sure you wish to delete host '%s'?"
+msgstr "Möchten Sie den Host '%s' wirklich löschen?"
+
+msgid "Created: %s"
+msgstr "Erstellt: %s"
+
+msgid "Date of event"
+msgstr "Ereignisdatum"
+
+msgid "Parsing log files"
+msgstr "Protokolldateien verarbeiten"
+
+msgid "Parsing client database files"
+msgstr "Client-Datenbankdateien verarbeiten"
+
+msgid "Disabling unused hosts and profiles"
+msgstr "Ungenutzte Hosts und Profile deaktivieren"
+
+msgid "Cron task of the shell"
+msgstr "Cron-Aufgabe der Shell"
+
+msgid "This shell is used to execute task scheduled."
+msgstr "Diese Shell führt geplante Aufgaben aus."
+
+msgid "Available tasks: %s."
+msgstr "Verfügbare Aufgaben: %s."
+
+msgid "and"
+msgstr "und"
+
+msgid "This task is used to disable unused hosts and profiles scheduled."
+msgstr "Diese Aufgabe deaktiviert ungenutzte Hosts und Profile nach Zeitplan."
+
+msgid "Disabling unused hosts and profiles in progress..."
+msgstr "Ungenutzte Hosts und Profile werden deaktiviert ..."
+
+msgid "Disabling unused hosts and profiles put in queue successfully."
+msgstr "Die Deaktivierung ungenutzter Hosts und Profile wurde in die Warteschlange gestellt."
+
+msgid "Disabling unused hosts and profiles put in queue unsuccessfully."
+msgstr "Die Deaktivierung ungenutzter Hosts und Profile konnte nicht in die Warteschlange gestellt werden."
+
+msgid "This task is used to parse client database files scheduled."
+msgstr "Diese Aufgabe verarbeitet Client-Datenbankdateien nach Zeitplan."
+
+msgid "Parsing client database files in progress..."
+msgstr "Client-Datenbankdateien werden verarbeitet ..."
+
+msgid "Parsing client database files put in queue successfully."
+msgstr "Die Verarbeitung der Client-Datenbankdateien wurde in die Warteschlange gestellt."
+
+msgid "Parsing client database files put in queue unsuccessfully."
+msgstr "Die Verarbeitung der Client-Datenbankdateien konnte nicht in die Warteschlange gestellt werden."
+
+msgid "This task is used to parse log files scheduled."
+msgstr "Diese Aufgabe verarbeitet Protokolldateien nach Zeitplan."
+
+msgid "Parsing log files in progress..."
+msgstr "Protokolldateien werden verarbeitet ..."
+
+msgid "Parsing log files put in queue successfully."
+msgstr "Die Verarbeitung der Protokolldateien wurde in die Warteschlange gestellt."
+
+msgid "Parsing log files put in queue unsuccessfully."
+msgstr "Die Verarbeitung der Protokolldateien konnte nicht in die Warteschlange gestellt werden."
+
+msgid "CakePHP Queue task for disable unused hosts and profiles."
+msgstr "CakePHP-Warteschlangenaufgabe zum Deaktivieren ungenutzter Hosts und Profile."
+
+msgid "CakePHP Queue task for generating XML."
+msgstr "CakePHP-Warteschlangenaufgabe zum Erstellen von XML."
+
+msgid "CakePHP Queue task for import XML file."
+msgstr "CakePHP-Warteschlangenaufgabe zum Importieren einer XML-Datei."
+
+msgid "CakePHP Queue task for parsing client database files."
+msgstr "CakePHP-Warteschlangenaufgabe zum Verarbeiten der Client-Datenbankdateien."
+
+msgid "CakePHP Queue task for parsing log files."
+msgstr "CakePHP-Warteschlangenaufgabe zum Verarbeiten der Protokolldateien."
+
+msgid "CakePHP Queue task for processing group of data."
+msgstr "CakePHP-Warteschlangenaufgabe zum Verarbeiten einer Datengruppe."
+
+msgid "CakePHP Queue task for recovering state a tree."
+msgstr "CakePHP-Warteschlangenaufgabe zum Wiederherstellen des Baumstatus."
+
+msgid "Invalid referrer ID or type for variable"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für die Variable"
+
+msgid "Editing XML"
+msgstr "XML bearbeiten"
+
+msgid "Editing XML file"
+msgstr "XML-Datei bearbeiten"
+
+msgid "has a version %s %s"
+msgstr "hat die Version %s %s"
+
+msgid "has a modify date %s %s"
+msgstr "hat das Änderungsdatum %s %s"
+
+msgid "has a create date %s %s"
+msgstr "hat das Erstellungsdatum %s %s"
+
+msgid "has a access date %s %s"
+msgstr "hat das Zugriffsdatum %s %s"
+
+msgid "File '%s' %s"
+msgstr "Datei '%s' %s"
+
+msgid "Execute '%s' and ensure the returned exit code %s"
+msgstr "'%s' ausführen und prüfen, ob der zurückgegebene Beendigungscode %s ist"
+
+msgid "has a version %s '%s'"
+msgstr "hat die Version %s '%s'"
+
+msgid "Uninstall path '%s' %s"
+msgstr "Deinstallationspfad '%s' %s"
+
+msgid "Host name is '%s'"
+msgstr "Hostname ist '%s'"
+
+msgid "Host OS is '%s'"
+msgstr "Betriebssystem des Hosts ist '%s'"
+
+msgid "Host architecture is '%s'"
+msgstr "Architektur des Hosts ist '%s'"
+
+msgid "Host IP addresses is '%s'"
+msgstr "IP-Adressen des Hosts sind '%s'"
+
+msgid "Host domain name is '%s'"
+msgstr "Domänenname des Hosts ist '%s'"
+
+msgid "Host is group member '%s'"
+msgstr "Host ist Mitglied der Gruppe '%s'"
+
+msgid "Host language ID is '%s'"
+msgstr "Sprach-ID des Hosts ist '%s'"
+
+msgid "Host language ID OS is '%s'"
+msgstr "Sprach-ID des Betriebssystems des Hosts ist '%s'"
+
+msgid "Host environment is '%s'"
+msgstr "Umgebung des Hosts ist '%s'"
+
+msgid "Host is unknown"
+msgstr "Host ist unbekannt"
+
+msgid "line"
+msgstr "Zeile"
+
+msgid "Archive of the %s"
+msgstr "Archiv von %s"
+
+msgid "archive %s"
+msgstr "Archiv %s"
+
+msgid "Attributes of the %s"
+msgstr "Attribute von %s"
+
+msgid "attributes %s"
+msgstr "Attribute %s"
+
+msgid "Chart of the %s"
+msgstr "Diagramm von %s"
+
+msgid "chart %s"
+msgstr "Diagramm %s"
+
+msgid "Check %sof the %s"
+msgstr "Prüfung %s von %s"
+
+msgid "check %s%s"
+msgstr "Prüfung %s%s"
+
+msgid "Configuration for script WPKG ver. %s"
+msgstr "Konfiguration für WPKG-Skript Version %s"
+
+msgid "Invalid type for deleting record"
+msgstr "Ungültiger Typ zum Löschen des Eintrags"
+
+msgid "Invalid ID for deleting record"
+msgstr "Ungültige ID zum Löschen des Eintrags"
+
+msgid "The list of computers for processing is empty"
+msgstr "Die Liste der zu verarbeitenden Computer ist leer."
+
+msgid "The list of hosts for processing is empty"
+msgstr "Die Liste der zu verarbeitenden Hosts ist leer."
+
+msgid "Administrator of WPKG"
+msgstr "WPKG-Administrator"
+
+msgid "Unused hosts and profiles is disabled"
+msgstr "Die Deaktivierung ungenutzter Hosts und Profile ist ausgeschaltet."
+
+msgid "Error on putting sending e-mail for \"%s\" in queue..."
+msgstr "Fehler beim Einstellen der E-Mail an \"%s\" in die Warteschlange ..."
+
+msgid "Exit codes %sof the %s"
+msgstr "Beendigungscodes %s von %s"
+
+msgid "exit codes %s%s"
+msgstr "Beendigungscodes %s%s"
+
+msgid "Record %s of the exit code directory"
+msgstr "Eintrag %s im Beendigungscode-Verzeichnis"
+
+msgid "record %s of the exit code directory"
+msgstr "Eintrag %s im Beendigungscode-Verzeichnis"
+
+msgid "Garbage"
+msgstr "Papierkorb"
+
+msgid "Garbage of the %s"
+msgstr "Gelöschte Daten von %s"
+
+msgid "garbage %s"
+msgstr "Papierkorb %s"
+
+msgid "Graph"
+msgstr "Diagramm"
+
+msgid "Graph of the %s"
+msgstr "Diagramm von %s"
+
+msgid "graph %s"
+msgstr "Diagramm %s"
+
+msgid "Graph for host '%s'"
+msgstr "Diagramm für Host '%s'"
+
+msgid "data for host"
+msgstr "Daten für Host"
+
+msgid "full"
+msgstr "vollständig"
+
+msgid "Host '%s'"
+msgstr "Host '%s'"
+
+msgid "host '%s'"
+msgstr "Host '%s'"
+
+msgid "Assoc. profile"
+msgstr "Zugeordnetes Profil"
+
+msgid "The list of computers for generating XML is empty"
+msgstr "Die Liste der Computer zum Erstellen der XML-Datei ist leer."
+
+msgid "Invalid host template ID"
+msgstr "Ungültige Host-Vorlagen-ID"
+
+msgid "associated %s of the %s"
+msgstr "Zugeordnete %s von %s"
+
+msgid "Errors"
+msgstr "Fehler"
+
+msgid "Error on settings scope"
+msgstr "Fehler beim Festlegen des Einstellungsbereichs"
+
+msgid "Invalid file path"
+msgstr "Ungültiger Dateipfad"
+
+msgid "Invalid file type. Can be one of: %s"
+msgstr "Ungültiger Dateityp. Zulässig sind: %s"
+
+msgid "Invalid input XML file"
+msgstr "Ungültige XML-Eingabedatei"
+
+msgid "Input XML file is empty"
+msgstr "Die XML-Eingabedatei ist leer."
+
+msgid "Invalid input text file"
+msgstr "Ungültige Texteingabedatei"
+
+msgid "Input text file is empty"
+msgstr "Die Texteingabedatei ist leer."
+
+msgid "Invalid name of dependency model"
+msgstr "Ungültiger Name des Abhängigkeitsmodells"
+
+msgid "Error on deleting records of report"
+msgstr "Fehler beim Löschen der Berichtseinträge"
+
+msgid "Error on saving report record"
+msgstr "Fehler beim Speichern des Berichtseintrags"
+
+msgid "Error on saving report records"
+msgstr "Fehler beim Speichern der Berichtseinträge"
+
+msgid "Error on saving WPKG configuration"
+msgstr "Fehler beim Speichern der WPKG-Konfiguration"
+
+msgid "Error on saving WPKG configuration language"
+msgstr "Fehler beim Speichern der WPKG-Konfigurationssprache"
+
+msgid "Error on saving log record"
+msgstr "Fehler beim Speichern des Protokolleintrags"
+
+msgid "Error on saving log records"
+msgstr "Fehler beim Speichern der Protokolleinträge"
+
+msgid "Error on saving exit code directory"
+msgstr "Fehler beim Speichern des Beendigungscode-Verzeichnisses"
+
+msgid "Other messages"
+msgstr "Weitere Meldungen"
+
+msgid "Warnings"
+msgstr "Warnungen"
+
+msgid "Invalid path to XSD schema file"
+msgstr "Ungültiger Pfad zur XSD-Schemadatei"
+
+msgid "Log record"
+msgstr "Protokolleintrag"
+
+msgid "Log of host %s"
+msgstr "Protokoll von Host %s"
+
+msgid "Error processing the log files parsing."
+msgstr "Fehler beim Verarbeiten der Protokolldateien."
+
+msgid "Error on connection to SMB share: %s."
+msgstr "Fehler beim Verbinden mit der SMB-Freigabe: %s."
+
+msgid "No log files to parsing."
+msgstr "Keine Protokolldateien zum Verarbeiten vorhanden."
+
+msgid "Error on retrieving log file name"
+msgstr "Fehler beim Abrufen des Protokolldateinamens"
+
+msgid "Error on copying files"
+msgstr "Fehler beim Kopieren der Dateien"
+
+msgid "Error on removing unused hosts"
+msgstr "Fehler beim Entfernen ungenutzter Hosts"
+
+msgid "Found new errors of WPKG"
+msgstr "Neue WPKG-Fehler gefunden"
+
+msgid "Error on sending e-mail"
+msgstr "Fehler beim Senden der E-Mail"
+
+msgid "record"
+msgstr "Eintrag"
+
+msgid "Logs of host"
+msgstr "Protokolle des Hosts"
+
+msgid "Logs of host %s"
+msgstr "Protokolle von Host %s"
+
+msgid "logs of host %s"
+msgstr "Protokolle von Host %s"
+
+msgid "Package '%s'"
+msgstr "Paket '%s'"
+
+msgid "package '%s'"
+msgstr "Paket '%s'"
+
+msgid "full data of packages"
+msgstr "vollständige Paketdaten"
+
+msgid "Present in"
+msgstr "Vorhanden in"
+
+msgid "Chart of the installed versions of the package '%s'"
+msgstr "Diagramm der installierten Versionen des Pakets '%s'"
+
+msgid "dependencies"
+msgstr "Abhängigkeiten"
+
+msgid "inclusions"
+msgstr "Einschlüsse"
+
+msgid "chains"
+msgstr "Paketketten"
+
+msgid "Depends on"
+msgstr "Abhängig von"
+
+msgid "Includes on"
+msgstr "Einschluss in"
+
+msgid "Chain on"
+msgstr "Verknüpfung mit"
+
+msgid "Include"
+msgstr "Einschließen"
+
+msgid "Action(s) %sof the %s"
+msgstr "Aktion(en) %s von %s"
+
+msgid "action(s) %s%s"
+msgstr "Aktion(en) %s%s"
+
+msgid "Package action type %s"
+msgstr "Paketaktionstyp %s"
+
+msgid "package action type %s"
+msgstr "Paketaktionstyp %s"
+
+msgid "Package priority %s"
+msgstr "Paketpriorität %s"
+
+msgid "package priority %s"
+msgstr "Paketpriorität %s"
+
+msgid "chain %s of the %s"
+msgstr "Paketkette %s von %s"
+
+msgid "Chain of package"
+msgstr "Paketkette"
+
+msgid "inclusion %s of the %s"
+msgstr "Einschluss %s von %s"
+
+msgid "Includes of package"
+msgstr "Paketeinschlüsse"
+
+msgid "dependency %s of the %s"
+msgstr "Abhängigkeit %s von %s"
+
+msgid "Dependency of package"
+msgstr "Paketabhängigkeit"
+
+msgid "Profile '%s'"
+msgstr "Profil '%s'"
+
+msgid "profile '%s'"
+msgstr "Profil '%s'"
+
+msgid "Through main profile"
+msgstr "Über das Hauptprofil"
+
+msgid "Through dependent profile"
+msgstr "Über ein abhängiges Profil"
+
+msgid "Through prof. assoc. host"
+msgstr "Über das dem Profil zugeordnete Host"
+
+msgid "Contains"
+msgstr "Enthält"
+
+msgid "Dependency of profile"
+msgstr "Profilabhängigkeit"
+
+msgid "Invalid arguments"
+msgstr "Ungültige Argumente"
+
+msgid "Error on recovering tree (list)"
+msgstr "Fehler beim Wiederherstellen des Baums (Liste)"
+
+msgid "Report of host %s"
+msgstr "Bericht für Host %s"
+
+msgid "Error processing the database files parsing."
+msgstr "Fehler beim Verarbeiten der Datenbankdateien."
+
+msgid "No database files to parsing."
+msgstr "Keine Datenbankdateien zum Verarbeiten vorhanden."
+
+msgid "Host %s of report"
+msgstr "Host %s des Berichts"
+
+msgid "Variable %sof the %s"
+msgstr "Variable %s von %s"
+
+msgid "variable %s%s"
+msgstr "Variable %s%s"
+
+msgid "global environment"
+msgstr "globale Umgebung"
+
+msgid "WPI packages"
+msgstr "WPI-Pakete"
+
+msgid "WPI package %s"
+msgstr "WPI-Paket %s"
+
+msgid "The category of WPI cannot be removed because it is used in %d %s."
+msgstr "Die WPI-Kategorie kann nicht entfernt werden, da sie in %d %s verwendet wird."
+
+msgid "WPI category %s"
+msgstr "WPI-Kategorie %s"
+
+msgid "Field '%s' is not found in model %s"
+msgstr "Feld '%s' wurde im Modell %s nicht gefunden."
+
+msgid "Method '%s' is not found in model %s"
+msgstr "Methode '%s' wurde im Modell %s nicht gefunden."
+
+msgid "Invalid name of main model for model '%s'"
+msgstr "Ungültiger Name des Hauptmodells für Modell '%s'"
+
+msgid "Invalid name of dependency model for model '%s'"
+msgstr "Ungültiger Name des Abhängigkeitsmodells für Modell '%s'"
+
+msgid "Invalid dependency ID attribute for model '%s'"
+msgstr "Ungültiges Abhängigkeits-ID-Attribut für Modell '%s'"
+
+msgid "Invalid dependency element name for model '%s'"
+msgstr "Ungültiger Name des Abhängigkeitselements für Modell '%s'"
+
+msgid "Invalid name of the cache configuration to use"
+msgstr "Ungültiger Name der zu verwendenden Cache-Konfiguration"
+
+msgid "Invalid key field name"
+msgstr "Ungültiger Name des Schlüsselfelds"
+
+msgid "Invalid action for processing"
+msgstr "Ungültige Aktion zur Verarbeitung"
+
+msgid "Invalid condition for processing"
+msgstr "Ungültige Verarbeitungsbedingung"
+
+msgid "The list of data for processing is empty"
+msgstr "Die Liste der zu verarbeitenden Daten ist leer."
+
+msgid "Processed %s"
+msgstr "%s verarbeitet"
+
+msgid "Error on processing: %s '%s'"
+msgstr "Fehler bei der Verarbeitung: %s '%s'"
+
+msgid "Invalid constant prefix"
+msgstr "Ungültiges Konstantenpräfix"
+
+msgid "Invalid name of model for cache"
+msgstr "Ungültiger Modellname für den Cache"
+
+msgid "PHP Extension \"%s\" is not loaded"
+msgstr "Die PHP-Erweiterung \"%s\" ist nicht geladen."
+
+msgid "Behavior %s not loaded in %s"
+msgstr "Verhalten %s wurde in %s nicht geladen."
+
+msgid "Application settings"
+msgstr "Anwendungseinstellungen"
+
+msgid "Type, name"
+msgstr "Typ, Name"
+
+msgid "The 'DisplayVersion' registry key is used"
+msgstr "Der Registrierungsschlüssel 'DisplayVersion' wird verwendet."
+
+msgid "Describes how the check is to be carried out for the selected type."
+msgstr "Beschreibt, wie die Prüfung für den ausgewählten Typ durchgeführt wird."
+
+msgid "Do not consider wpkg.xml but check existence of packages"
+msgstr "wpkg.xml nicht berücksichtigen, sondern die Pakete auf Existenz prüfen"
+
+msgid "Force installation over existing packages"
+msgstr "Installation über vorhandene Pakete erzwingen"
+
+msgid "Force the script to immediately quit on error"
+msgstr "Skript bei einem Fehler sofort beenden"
+
+msgid "Enable debug mode"
+msgstr "Debugmodus aktivieren"
+
+msgid "Enable debug mode. Prints lots of ugly debug messages to event log"
+msgstr "Debugmodus aktivieren. Schreibt zahlreiche Debugmeldungen in das Ereignisprotokoll."
+
+msgid "Enable dryrun mode"
+msgstr "Probelaufmodus aktivieren"
+
+msgid "Disable all log messages printed to the console"
+msgstr "Alle Protokollmeldungen in der Konsole unterdrücken"
+
+msgid "Disable user notification about WPKG actions"
+msgstr "Benutzerbenachrichtigungen zu WPKG-Aktionen deaktivieren"
+
+msgid "Disable user notification about WPKG actions using windows messaging."
+msgstr "Benutzerbenachrichtigungen zu WPKG-Aktionen über Windows-Nachrichten deaktivieren."
+
+msgid "Defines how long a user notification is displayed to the user"
+msgstr "Legt fest, wie lange eine Benutzerbenachrichtigung angezeigt wird."
+
+msgid "Default command execution timeout"
+msgstr "Standardzeitlimit für die Befehlsausführung"
+
+msgid "System does not reboot regardless of need"
+msgstr "Das System wird unabhängig vom Bedarf nicht neu gestartet."
+
+msgid "Disable export of running state to Windows registry"
+msgstr "Export des Ausführungsstatus in die Windows-Registrierung deaktivieren"
+
+msgid "Matching of package and profile IDs is case sensitive"
+msgstr "Bei Paket- und Profil-IDs wird zwischen Groß- und Kleinschreibung unterschieden."
+
+msgid "Match multiple host entries to a single host"
+msgstr "Mehrere Hosteinträge einem einzelnen Host zuordnen"
+
+msgid "Disable all downloads"
+msgstr "Alle Downloads deaktivieren"
+
+msgid "Use the specified command for rebooting"
+msgstr "Den angegebenen Befehl für den Neustart verwenden"
+
+msgid "Disable forced removal of packages"
+msgstr "Erzwungenes Entfernen von Paketen deaktivieren"
+
+msgid "Allows to disable removing of packages"
+msgstr "Ermöglicht das Deaktivieren des Entfernens von Paketen."
+
+msgid "Enable status output on STDOUT"
+msgstr "Statusausgabe auf STDOUT aktivieren"
+
+msgid "Disables the upgrade-before-remove feature"
+msgstr "Die Funktion zum Aktualisieren vor dem Entfernen deaktivieren"
+
+msgid "Includes host information in local wpkg.xml attributes"
+msgstr "Hostinformationen in lokale wpkg.xml-Attribute aufnehmen"
+
+msgid "Marks volatile releases"
+msgstr "Veränderliche Versionen markieren"
+
+msgid "Allows to switch to remote mode"
+msgstr "Ermöglicht den Wechsel in den Remote-Modus."
+
+msgid "Allows to switch to remote mode where package verification is skipped."
+msgstr "Ermöglicht den Wechsel in den Remote-Modus, in dem Pakete nicht überprüft werden."
+
+msgid "Log files are appended instead of overwritten"
+msgstr "Protokolldateien erweitern, statt sie zu überschreiben"
+
+msgid "Specifies if the log file should be appended or overwritten."
+msgstr "Legt fest, ob die Protokolldatei erweitert oder überschrieben wird."
+
+msgid "Define paths where WPKG looks for XML packages files"
+msgstr "Pfade festlegen, in denen WPKG nach XML-Paketdateien sucht"
+
+msgid "Define paths where WPKG looks for XML profiles files"
+msgstr "Pfade festlegen, in denen WPKG nach XML-Profildateien sucht"
+
+msgid "Define paths where WPKG looks for XML hosts files"
+msgstr "Pfade festlegen, in denen WPKG nach XML-Hostdateien sucht"
+
+msgid "Registry path where WPKG stores its running state."
+msgstr "Registrierungspfad, in dem WPKG seinen Ausführungsstatus speichert."
+
+msgid "Username for internal authentication."
+msgstr "Benutzername für die interne Authentifizierung."
+
+msgid "Protect XML output"
+msgstr "XML-Ausgabe schützen"
+
+msgid "Use authorization for the XML output."
+msgstr "Authentifizierung für die XML-Ausgabe verwenden."
+
+msgid "Disable XML output"
+msgstr "XML-Ausgabe deaktivieren"
+
+msgid "Disable exporting XML and WPI configuration files."
+msgstr "Export von XML- und WPI-Konfigurationsdateien deaktivieren."
+
+msgid "Format XML output"
+msgstr "XML-Ausgabe formatieren"
+
+msgid "Only useful for debugging purposes."
+msgstr "Nur für Debugging-Zwecke sinnvoll."
+
+msgid "Export notes items"
+msgstr "Notizen exportieren"
+
+msgid "Notes of items will only appear as XML comments."
+msgstr "Notizen zu Einträgen erscheinen nur als XML-Kommentare."
+
+msgid "Export disabled items"
+msgstr "Deaktivierte Einträge exportieren"
+
+msgid "Disabled items will only appear as XML comments."
+msgstr "Deaktivierte Einträge erscheinen nur als XML-Kommentare."
+
+msgid "System"
+msgstr "System"
+
+msgid "Auto variable %%%s%%"
+msgstr "Automatische Variable %%%s%%"
+
+msgid "Create auto variable %%%s%% in packages."
+msgstr "Automatische Variable %%%s%% in Paketen erstellen."
+
+msgid "Search information"
+msgstr "Suchinformationen"
+
+msgid "Search in any part string"
+msgstr "An beliebiger Stelle im Text suchen"
+
+msgid "Default value for flag of search in any part string"
+msgstr "Standardwert für die Option zur Suche an beliebiger Textstelle"
+
+msgid "Search on LDAP server"
+msgstr "Auf dem LDAP-Server suchen"
+
+msgid "Search base of users"
+msgstr "Suchbasis für Benutzer"
+
+msgid "Search base of computers"
+msgstr "Suchbasis für Computer"
+
+msgid "XML output authentication"
+msgstr "Authentifizierung für die XML-Ausgabe"
+
+msgid "Username for the XML protect account."
+msgstr "Benutzername für das XML-Schutzkonto."
+
+msgid "Parsing logs and client databases"
+msgstr "Protokolle und Client-Datenbanken verarbeiten"
+
+msgid "Username to connect to the SMB share."
+msgstr "Benutzername für die Verbindung zur SMB-Freigabe."
+
+msgid "Workgroup or domain"
+msgstr "Arbeitsgruppe oder Domäne"
+
+msgid "Workgroup or domain."
+msgstr "Arbeitsgruppe oder Domäne."
+
+msgid "Server name"
+msgstr "Servername"
+
+msgid "Server name."
+msgstr "Servername."
+
+msgid "Share name containing logs"
+msgstr "Name der Freigabe mit den Protokollen"
+
+msgid "The name of the SMB share containing the log files, e.g.: wpkg/log."
+msgstr "Name der SMB-Freigabe mit den Protokolldateien, z. B. wpkg/log."
+
+msgid "Share name containing client databases"
+msgstr "Name der Freigabe mit den Client-Datenbanken"
+
+msgid "If enabled, this host will appear in hosts (xml) lists."
+msgstr "Wenn aktiviert, erscheint dieser Host in den Hostlisten (XML)."
+
+msgid "Template"
+msgstr "Vorlage"
+
+msgid "If enabled, this host is used as a template."
+msgstr "Wenn aktiviert, wird dieser Host als Vorlage verwendet."
+
+msgid "The main profile that will always be evaluated for this host."
+msgstr "Das Hauptprofil, das für diesen Host immer ausgewertet wird."
+
+msgid "Additional associated profiles"
+msgstr "Zusätzlich zugeordnete Profile"
+
+msgid "Additional notes about this host. Not used by WPKG."
+msgstr "Zusätzliche Hinweise zu diesem Host. Wird von WPKG nicht verwendet."
+
+msgid "Computers to generate"
+msgstr "Zu berücksichtigende Computer"
+
+msgid "The list of computers from LDAP to create an XML file."
+msgstr "Liste der Computer aus LDAP, für die eine XML-Datei erstellt wird."
+
+msgid "Host template"
+msgstr "Hostvorlage"
+
+msgid "Template for creating new host"
+msgstr "Vorlage zum Erstellen eines neuen Hosts"
+
+msgid "Profile template"
+msgstr "Profilvorlage"
+
+msgid "Template for creating new profile"
+msgstr "Vorlage zum Erstellen eines neuen Profils"
+
+msgid "Use the main profile from the host template"
+msgstr "Hauptprofil der Hostvorlage verwenden"
+
+msgid "Generate"
+msgstr "Erstellen"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL for download."
+msgstr "URL für den Download."
+
+msgid "Timeout"
+msgstr "Zeitlimit"
+
+msgid "The maximum number of seconds to wait for the action to execute."
+msgstr "Maximale Wartezeit in Sekunden für die Ausführung der Aktion."
+
+msgid "Target"
+msgstr "Ziel"
+
+msgid "Path to file for saving."
+msgstr "Pfad zur zu speichernden Datei."
+
+msgid "Expand URL"
+msgstr "URL erweitern"
+
+msgid "Expansion of environment variables in download URLs."
+msgstr "Umgebungsvariablen in Download-URLs erweitern."
+
+msgid "The type of command to be executed."
+msgstr "Typ des auszuführenden Befehls."
+
+msgid "The command to be executed."
+msgstr "Auszuführender Befehl."
+
+msgid "Work directory"
+msgstr "Arbeitsverzeichnis"
+
+msgid "The working directory to use when executing this action."
+msgstr "Arbeitsverzeichnis für die Ausführung dieser Aktion."
+
+msgid "The kind of action to be executed."
+msgstr "Art der auszuführenden Aktion."
+
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgid "The kind of action to be executed"
+msgstr "Art der auszuführenden Aktion"
+
+msgid "The name of the type of package action."
+msgstr "Name des Paketaktionstyps."
+
+msgid "If enabled, this package will appear in packages (xml) lists."
+msgstr "Wenn aktiviert, erscheint dieses Paket in den Paketlisten (XML)."
+
+msgid "If enabled, this package is used as a template."
+msgstr "Wenn aktiviert, wird dieses Paket als Vorlage verwendet."
+
+msgid "Profiles including this package."
+msgstr "Profile, die dieses Paket enthalten."
+
+msgid "Category"
+msgstr "Kategorie"
+
+msgid "Are you sure you wish to delete package '%s' from archive?"
+msgstr "Möchten Sie das Paket '%s' wirklich aus dem Archiv löschen?"
+
+msgid "Message"
+msgstr "Meldung"
+
+msgid "Preview logs of host"
+msgstr "Protokolle des Hosts anzeigen"
+
+msgid "Are you sure you wish to delete this log record?"
+msgstr "Möchten Sie diesen Protokolleintrag wirklich löschen?"
+
+msgid "log"
+msgstr "Protokoll"
+
+msgid "Chart of installed package versions"
+msgstr "Diagramm der installierten Paketversionen"
+
+msgid "Create package from this template"
+msgstr "Paket aus dieser Vorlage erstellen"
+
+msgid "Copy package"
+msgstr "Paket kopieren"
+
+msgid "Are you sure you wish to copy package '%s'?"
+msgstr "Möchten Sie das Paket '%s' wirklich kopieren?"
+
+msgid "Are you sure you wish to delete package '%s'?"
+msgstr "Möchten Sie das Paket '%s' wirklich löschen?"
+
+msgid "Includes the action: %s"
+msgstr "Enthält die Aktion: %s"
+
+msgid "Are you sure you wish to delete package action '%s'?"
+msgstr "Möchten Sie die Paketaktion '%s' wirklich löschen?"
+
+msgid "Command, work directory"
+msgstr "Befehl, Arbeitsverzeichnis"
+
+msgid "Exit&nbsp;codes, reboot"
+msgstr "Beendigungscodes, Neustart"
+
+msgid "Create profile from this template"
+msgstr "Profil aus dieser Vorlage erstellen"
+
+msgid "Copy profile"
+msgstr "Profil kopieren"
+
+msgid "Are you sure you wish to copy profile '%s'?"
+msgstr "Möchten Sie das Profil '%s' wirklich kopieren?"
+
+msgid "Are you sure you wish to delete profile '%s'?"
+msgstr "Möchten Sie das Profil '%s' wirklich löschen?"
+
+msgid "State"
+msgstr "Status"
+
+msgid "Last update"
+msgstr "Letzte Aktualisierung"
+
+msgid "Refresh report of host"
+msgstr "Bericht des Hosts aktualisieren"
+
+msgid "Are you sure you wish to refresh report of host '%s'?"
+msgstr "Möchten Sie den Bericht des Hosts '%s' wirklich aktualisieren?"
+
+msgid "Clear reports of host"
+msgstr "Berichte des Hosts leeren"
+
+msgid "Are you sure you wish to clear reports of host '%s'?"
+msgstr "Möchten Sie die Berichte des Hosts '%s' wirklich leeren?"
+
+msgid "Remove (rename) client database"
+msgstr "Client-Datenbank entfernen (umbenennen)"
+
+msgid "Are you sure you wish to remove (rename) client database of host '%s'?"
+msgstr "Möchten Sie die Client-Datenbank des Hosts '%s' wirklich entfernen (umbenennen)?"
+
+msgid "Are you sure you wish to delete WPI package '%s'?"
+msgstr "Möchten Sie das WPI-Paket '%s' wirklich löschen?"
+
+msgid "Are you sure you wish to delete check '%s'?"
+msgstr "Möchten Sie die Prüfung '%s' wirklich löschen?"
+
+msgid "Any children of this logical check will also be removed."
+msgstr "Alle untergeordneten Prüfungen dieser logischen Prüfung werden ebenfalls entfernt."
+
+msgid "Disabled unused hosts and profiles"
+msgstr "Ungenutzte Hosts und Profile deaktiviert"
+
+msgid "WPKG Error report"
+msgstr "WPKG-Fehlerbericht"
+
+msgid "To view the full list of errors, click '%s'"
+msgstr "Klicken Sie auf '%s', um die vollständige Fehlerliste anzuzeigen."
+
+msgid "here"
+msgstr "hier"
+
+msgid "%dh"
+msgstr "%dh"
+
+msgid "%dm"
+msgstr "%dm"
+
+msgid "%ds"
+msgstr "%ds"
+
+msgid "Installation state of packages"
+msgstr "Installationsstatus der Pakete"
+
+msgid "State of logs"
+msgstr "Protokollstatus"
+
+msgid "Last modified informations"
+msgstr "Zuletzt geänderte Informationen"
+
+msgid "Export XML files"
+msgstr "XML-Dateien exportieren"
+
+msgid "State of packages"
+msgstr "Paketstatus"
+
+msgid "Additional profiles associated with the host."
+msgstr "Zusätzliche Profile, die diesem Host zugeordnet sind."
+
+msgid "Package action types not found"
+msgstr "Paketaktionstypen nicht gefunden"
+
+msgid "Package action type could not be saved. Please, try again."
+msgstr "Der Paketaktionstyp konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Adding package action type"
+msgstr "Paketaktionstyp hinzufügen"
+
+msgid "Invalid ID for package action type"
+msgstr "Ungültige Paketaktionstyp-ID"
+
+msgid "Editing package action type"
+msgstr "Paketaktionstyp bearbeiten"
+
+msgid "Invalid ID for package action"
+msgstr "Ungültige Paketaktions-ID"
+
+msgid "Verify state of list actions"
+msgstr "Status der Aktionsliste überprüfen"
+
+msgid "Verify state of list package actions"
+msgstr "Status der Paketaktionsliste überprüfen"
+
+msgid "Invalid referrer ID or type for package action"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für die Paketaktion"
+
+msgid "Adding package action"
+msgstr "Paketaktion hinzufügen"
+
+msgid "Editing package action"
+msgstr "Paketaktion bearbeiten"
+
+msgid "Verifying state list package actions"
+msgstr "Status der Paketaktionsliste wird überprüft"
+
+msgid "Verifying"
+msgstr "Wird überprüft"
+
+msgid "Clear archive"
+msgstr "Archiv leeren"
+
+msgid "Package archive"
+msgstr "Paketarchiv"
+
+msgid "Restore package"
+msgstr "Paket wiederherstellen"
+
+msgid "Restore package from archive"
+msgstr "Paket aus dem Archiv wiederherstellen"
+
+msgid "This package already added to archive."
+msgstr "Dieses Paket wurde bereits zum Archiv hinzugefügt."
+
+msgid "The archive of packages has been cleared."
+msgstr "Das Paketarchiv wurde geleert."
+
+msgid "The archive of packages could not be cleared. Please, try again."
+msgstr "Das Paketarchiv konnte nicht geleert werden. Bitte versuchen Sie es erneut."
+
+msgid "The information of package has been extracted from archive successfully."
+msgstr "Die Paketinformationen wurden erfolgreich aus dem Archiv wiederhergestellt."
+
+msgid "Package information could not be restored from archive. Please try again."
+msgstr "Die Paketinformationen konnten nicht aus dem Archiv wiederhergestellt werden. Bitte versuchen Sie es erneut."
+
+msgid "Invalid ID for attributes"
+msgstr "Ungültige Attribut-ID"
+
+msgid "Editing information of this attributes"
+msgstr "Attributinformationen bearbeiten"
+
+msgid "Invalid referrer ID, type or node for attributes"
+msgstr "Ungültige Referenz-ID, ungültiger Typ oder Knoten für die Attribute"
+
+msgid "Adding attribute"
+msgstr "Attribut hinzufügen"
+
+msgid "Editing attributes"
+msgstr "Attribute bearbeiten"
+
+msgid "Invalid referrer ID or type for chart"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für das Diagramm"
+
+msgid "Invalid referrer ID or type for check"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für die Prüfung"
+
+msgid "Verify state of tree checks"
+msgstr "Status des Prüfungsbaums überprüfen"
+
+msgid "Adding check"
+msgstr "Prüfung hinzufügen"
+
+msgid "Invalid ID for check"
+msgstr "Ungültige Prüfungs-ID"
+
+msgid "Editing check"
+msgstr "Prüfung bearbeiten"
+
+msgid "Editing settings of WPKG"
+msgstr "WPKG-Einstellungen bearbeiten"
+
+msgid "Reset to default"
+msgstr "Auf Standardwerte zurücksetzen"
+
+msgid "Reset WPKG configuration to default"
+msgstr "WPKG-Konfiguration auf Standardwerte zurücksetzen"
+
+msgid "Are you sure you wish to reset WPKG configuration to default, including global variables?"
+msgstr "Möchten Sie die WPKG-Konfiguration einschließlich der globalen Variablen wirklich auf die Standardwerte zurücksetzen?"
+
+msgid "Variables of the global environment"
+msgstr "Globale Umgebungsvariablen"
+
+msgid "Editing settings"
+msgstr "Einstellungen bearbeiten"
+
+msgid "The WPKG configuration has been set default. Information will be processed by queue."
+msgstr "Die WPKG-Konfiguration wurde auf die Standardwerte zurückgesetzt. Die Verarbeitung erfolgt über die Warteschlange."
+
+msgid "The WPKG configuration could not be set default. Please, try again."
+msgstr "Die WPKG-Konfiguration konnte nicht auf die Standardwerte zurückgesetzt werden. Bitte versuchen Sie es erneut."
+
+msgid "XML failed to pass XSD schema validation"
+msgstr "Die XML-Datei hat die XSD-Schemaüberprüfung nicht bestanden."
+
+msgid "XML created successfully."
+msgstr "XML-Datei erfolgreich erstellt."
+
+msgid "Information will be processed by queue."
+msgstr "Die Informationen werden über die Warteschlange verarbeitet."
+
+msgid "Unable to create queue task."
+msgstr "Die Warteschlangenaufgabe konnte nicht erstellt werden."
+
+msgid "XML is empty"
+msgstr "Die XML-Datei ist leer."
+
+msgid "XML size exceeded. Maximum size %s."
+msgstr "Die maximale XML-Größe von %s wurde überschritten."
+
+msgid "When updating a Package revision, the previous configuration is not archived!"
+msgstr "Beim Aktualisieren einer Paketrevision wird die vorherige Konfiguration nicht archiviert."
+
+msgid "Inputting XML text"
+msgstr "XML-Text eingeben"
+
+msgid "Creating XML"
+msgstr "XML erstellen"
+
+msgid "Record has been deleted."
+msgstr "Der Eintrag wurde gelöscht."
+
+msgid "Record could not be deleted. Please, try again."
+msgstr "Der Eintrag konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+msgid "Downloading XML files"
+msgstr "XML-Dateien herunterladen"
+
+msgid "Exit code directory is empty"
+msgstr "Das Beendigungscode-Verzeichnis ist leer."
+
+msgid "Exit code directory"
+msgstr "Beendigungscode-Verzeichnis"
+
+msgid "Adding record of exit code directory"
+msgstr "Eintrag zum Beendigungscode-Verzeichnis hinzufügen"
+
+msgid "Invalid ID for record of exit code directory"
+msgstr "Ungültige ID des Eintrags im Beendigungscode-Verzeichnis"
+
+msgid "Editing record of exit code directory"
+msgstr "Eintrag im Beendigungscode-Verzeichnis bearbeiten"
+
+msgid "Invalid ID for exit code"
+msgstr "Ungültige Beendigungscode-ID"
+
+msgid "Invalid referrer ID or type for exit code"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für den Beendigungscode"
+
+msgid "Adding exit code"
+msgstr "Beendigungscode hinzufügen"
+
+msgid "Editing exit code"
+msgstr "Beendigungscode bearbeiten"
+
+msgid "Recycle bin"
+msgstr "Papierkorb"
+
+msgid "Clear recycle bin"
+msgstr "Papierkorb leeren"
+
+msgid "Restore data"
+msgstr "Daten wiederherstellen"
+
+msgid "Restore this data from recycle bin"
+msgstr "Diese Daten aus dem Papierkorb wiederherstellen"
+
+msgid "The recycle bin has been cleared."
+msgstr "Der Papierkorb wurde geleert."
+
+msgid "The recycle bin could not be cleared. Please, try again."
+msgstr "Der Papierkorb konnte nicht geleert werden. Bitte versuchen Sie es erneut."
+
+msgid "The information has been restored from recycle bin successfully."
+msgstr "Die Informationen wurden erfolgreich aus dem Papierkorb wiederhergestellt."
+
+msgid "The information could not be restored. Please, try again."
+msgstr "Die Informationen konnten nicht wiederhergestellt werden. Bitte versuchen Sie es erneut."
+
+msgid "Invalid referrer ID or type for graph"
+msgstr "Ungültige Referenz-ID oder ungültiger Typ für das Diagramm"
+
+msgid "Download this graph"
+msgstr "Dieses Diagramm herunterladen"
+
+msgid "Building a graph"
+msgstr "Diagramm wird erstellt"
+
+msgid "Error on creating graph"
+msgstr "Fehler beim Erstellen des Diagramms"
+
+msgid "General information"
+msgstr "Allgemeine Informationen"
+
+msgid "Generate based on LDAP"
+msgstr "Auf Grundlage von LDAP erstellen"
+
+msgid "Generate from template based on LDAP"
+msgstr "Auf Grundlage einer LDAP-Vorlage erstellen"
+
+msgid "Build a graph"
+msgstr "Diagramm erstellen"
+
+msgid "Build a graph for host"
+msgstr "Diagramm für Host erstellen"
+
+msgid "Verify state of list hosts"
+msgstr "Status der Hostliste überprüfen"
+
+msgid "Verify state of list variables"
+msgstr "Status der Variablenliste überprüfen"
+
+msgid "XML file uploaded successfully."
+msgstr "XML-Datei erfolgreich hochgeladen."
+
+msgid "XML updated successfully."
+msgstr "XML-Datei erfolgreich aktualisiert."
+
+msgid "After processing the information, refresh the page."
+msgstr "Laden Sie die Seite nach der Verarbeitung der Informationen neu."
+
+msgid "Create %s from this template"
+msgstr "%s aus dieser Vorlage erstellen"
+
+msgid "Logical %s"
+msgstr "Logisches %s"
+
+msgid "exists"
+msgstr "ist vorhanden"
+
+msgid "equals '%s'"
+msgstr "entspricht '%s'"
+
+msgid "unknown"
+msgstr "unbekannt"
+
+msgid "Registry path '%s' %s"
+msgstr "Registrierungspfad '%s' %s"
+
+msgid "bytes"
+msgstr "Byte"
+
+msgid "has a size = %s"
+msgstr "hat die Größe %s"
+
+msgid "Attributes"
+msgstr "Attribute"
+
+msgid "Settings of WPKG"
+msgstr "WPKG-Einstellungen"
+
+msgid "Exit code"
+msgstr "Beendigungscode"
+
+msgid "Record of exit code directory"
+msgstr "Eintrag im Beendigungscode-Verzeichnis"
+
+msgid "Use as template"
+msgstr "Als Vorlage verwenden"
+
+msgid "Main profile"
+msgstr "Hauptprofil"
+
+msgid "or"
+msgstr "oder"
+
+msgid "...And %s more %s"
+msgstr "...und %s weitere %s"
+
+msgid "Command"
+msgstr "Befehl"
+
+msgid "Package action"
+msgstr "Paketaktion"
+
+msgid "Action type"
+msgstr "Aktionstyp"
+
+msgid "Action types"
+msgstr "Aktionstypen"
+
+msgid "Package priority"
+msgstr "Paketpriorität"
+
+msgid "WPI package"
+msgstr "WPI-Paket"
+
+msgid "WPI category"
+msgstr "WPI-Kategorie"
+
+msgid "WPI categories"
+msgstr "WPI-Kategorien"
+
+msgid "Create package from template"
+msgstr "Paket aus Vorlage erstellen"
+
+msgid "Manage packages"
+msgstr "Pakete verwalten"
+
+msgid "Create profile from template"
+msgstr "Profil aus Vorlage erstellen"
+
+msgid "Manage profiles"
+msgstr "Profile verwalten"
+
+msgid "Add profile"
+msgstr "Profil hinzufügen"
+
+msgid "Create host from template"
+msgstr "Host aus Vorlage erstellen"
+
+msgid "Manage hosts"
+msgstr "Hosts verwalten"
+
+msgid "Add host"
+msgstr "Host hinzufügen"
+
+msgid "Disable unused"
+msgstr "Ungenutzte deaktivieren"
+
+msgid "Disable unused hosts and profiles"
+msgstr "Ungenutzte Hosts und Profile deaktivieren"
+
+msgid "Verify state of list"
+msgstr "Status der Liste überprüfen"
+
+msgid "Windows Post-Install Wizard"
+msgstr "Windows-Nachinstallationsassistent"
+
+msgid "Creating a WPKG configuration file"
+msgstr "WPKG-Konfigurationsdatei erstellen"
+
+msgid "Queue of tasks"
+msgstr "Aufgabenwarteschlange"
+
+msgid "Task queue list"
+msgstr "Aufgabenwarteschlange"
+
+msgid "Uploading XML"
+msgstr "XML hochladen"
+
+msgid "Upload XML files"
+msgstr "XML-Dateien hochladen"
+
+msgid "Downloading XML"
+msgstr "XML herunterladen"
+
+msgid "Download XML files"
+msgstr "XML-Dateien herunterladen"
+
+msgid "Manage removed data"
+msgstr "Gelöschte Daten verwalten"
+
+msgid "Attribute type"
+msgstr "Attributtyp"
+
+msgid "Add package"
+msgstr "Paket hinzufügen"
+
+msgid "Delete package"
+msgstr "Paket löschen"
+
+msgid "Delete selected items"
+msgstr "Ausgewählte Einträge löschen"
+
+msgid "Are you sure you wish to delete this package?"
+msgstr "Möchten Sie dieses Paket wirklich löschen?"
+
+msgid "The package has been deleted."
+msgstr "Das Paket wurde gelöscht."
+
+msgid "The package could not be deleted. Please, try again."
+msgstr "Das Paket konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+msgid "The package '%s' cannot be deleted or disabled because it is exists in %s for the following packages: %s"
+msgstr "Das Paket „%s“ kann nicht gelöscht oder deaktiviert werden, da es in %s für folgende Pakete verwendet wird: %s"
+
+msgid "Package has been saved."
+msgstr "Das Paket wurde gespeichert."
+
+msgid "Package could not be saved. Please, try again."
+msgstr "Das Paket konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Clear"
+msgstr "Leeren"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+msgid "Enable"
+msgstr "Aktivieren"
+
+msgid "Disable"
+msgstr "Deaktivieren"
+
+msgid "Import"
+msgstr "Importieren"
+
+msgid "Export"
+msgstr "Exportieren"
+
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Login"
+msgstr "Anmelden"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "administrator"
+msgstr "Administrator"
+
+msgid "Invalid ID for package"
+msgstr "Ungültige Paket-ID"
+
+msgid "The %s has been deleted."
+msgstr "%s wurde gelöscht."
+
+msgid "The %s could not be deleted. Please, try again."
+msgstr "%s konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+
+msgid "Are you sure you wish to delete this %s?"
+msgstr "Möchten Sie %s wirklich löschen?"
+
+msgid "The %s cannot be deleted or disabled"
+msgstr "%s kann nicht gelöscht oder deaktiviert werden."
+
+msgid "List of packages"
+msgstr "Paketliste"
+
+msgid "List of profiles"
+msgstr "Profilliste"
+
+msgid "List of hosts"
+msgstr "Hostliste"
+
+msgid "List of logs records"
+msgstr "Protokolleinträge"
+
+msgid "List of packages installation state"
+msgstr "Installationsstatus der Pakete"
+
+msgid "List of packages for WPI"
+msgstr "WPI-Paketliste"
+
+msgid "List of priorities."
+msgstr "Prioritätenliste"
+
+msgid "List of categories of WPI is empty"
+msgstr "Die WPI-Kategorienliste ist leer."
+
+msgid "Information of package actions"
+msgstr "Informationen zu Paketaktionen"
+
+msgid "Information of package archive"
+msgstr "Informationen zum Paketarchiv"
+
+msgid "Information of attributes"
+msgstr "Informationen zu Attributen"
+
+msgid "Information of checks"
+msgstr "Informationen zu Prüfungen"
+
+msgid "Information of exit codes"
+msgstr "Informationen zu Beendigungscodes"
+
+msgid "Information of host"
+msgstr "Hostinformationen"
+
+msgid "Information of profile"
+msgstr "Profilinformationen"
+
+msgid "Information of variables"
+msgstr "Informationen zu Variablen"
+
+msgid "Information of WPI package"
+msgstr "Informationen zum WPI-Paket"
+
+msgid "Add new package"
+msgstr "Neues Paket hinzufügen"
+
+msgid "Add new profile"
+msgstr "Neues Profil hinzufügen"
+
+msgid "Add new host"
+msgstr "Neuen Host hinzufügen"
+
+msgid "Add action"
+msgstr "Aktion hinzufügen"
+
+msgid "Add check"
+msgstr "Prüfung hinzufügen"
+
+msgid "Add checks"
+msgstr "Prüfungen hinzufügen"
+
+msgid "Add variable"
+msgstr "Variable hinzufügen"
+
+msgid "Add exit code"
+msgstr "Beendigungscode hinzufügen"
+
+msgid "Add record"
+msgstr "Eintrag hinzufügen"
+
+msgid "Add record of exit code directory"
+msgstr "Eintrag zum Beendigungscode-Verzeichnis hinzufügen"
+
+msgid "Add to archive"
+msgstr "Zum Archiv hinzufügen"
+
+msgid "Add current revision of package to archive"
+msgstr "Aktuelle Paketrevision zum Archiv hinzufügen"
+
+msgid "Add package WPI"
+msgstr "WPI-Paket hinzufügen"
+
+msgid "Edit package"
+msgstr "Paket bearbeiten"
+
+msgid "Edit profile"
+msgstr "Profil bearbeiten"
+
+msgid "Edit host"
+msgstr "Host bearbeiten"
+
+msgid "Edit variable"
+msgstr "Variable bearbeiten"
+
+msgid "Edit check"
+msgstr "Prüfung bearbeiten"
+
+msgid "Edit checks"
+msgstr "Prüfungen bearbeiten"
+
+msgid "Edit attributes"
+msgstr "Attribute bearbeiten"
+
+msgid "Edit action type"
+msgstr "Aktionstyp bearbeiten"
+
+msgid "Edit action types"
+msgstr "Aktionstypen bearbeiten"
+
+msgid "Edit package action"
+msgstr "Paketaktion bearbeiten"
+
+msgid "Edit package action types"
+msgstr "Paketaktionstypen bearbeiten"
+
+msgid "Edit package priority"
+msgstr "Paketpriorität bearbeiten"
+
+msgid "Edit exit code"
+msgstr "Beendigungscode bearbeiten"
+
+msgid "Edit exit codes"
+msgstr "Beendigungscodes bearbeiten"
+
+msgid "Edit record"
+msgstr "Eintrag bearbeiten"
+
+msgid "Edit settings"
+msgstr "Einstellungen bearbeiten"
+
+msgid "Edit installation date"
+msgstr "Installationsdatum bearbeiten"
+
+msgid "Edit existing package in profiles"
+msgstr "Paketzuordnung in Profilen bearbeiten"
+
+msgid "Edit existing profile in hosts"
+msgstr "Profilzuordnung auf Hosts bearbeiten"
+
+msgid "Delete profile"
+msgstr "Profil löschen"
+
+msgid "Delete host"
+msgstr "Host löschen"
+
+msgid "Delete variable"
+msgstr "Variable löschen"
+
+msgid "Delete check"
+msgstr "Prüfung löschen"
+
+msgid "Delete attributes"
+msgstr "Attribute löschen"
+
+msgid "Delete data"
+msgstr "Daten löschen"
+
+msgid "Delete exit code"
+msgstr "Beendigungscode löschen"
+
+msgid "Delete record"
+msgstr "Eintrag löschen"
+
+msgid "Delete record of exit code directory"
+msgstr "Eintrag aus dem Beendigungscode-Verzeichnis löschen"
+
+msgid "Delete log record"
+msgstr "Protokolleintrag löschen"
+
+msgid "Delete package action"
+msgstr "Paketaktion löschen"
+
+msgid "Delete package action type"
+msgstr "Paketaktionstyp löschen"
+
+msgid "Delete package priority"
+msgstr "Paketpriorität löschen"
+
+msgid "Delete WPI category"
+msgstr "WPI-Kategorie löschen"
+
+msgid "Delete WPI package"
+msgstr "WPI-Paket löschen"
+
+msgid "Add package priority"
+msgstr "Paketpriorität hinzufügen"
+
+msgid "Add action type"
+msgstr "Aktionstyp hinzufügen"
+
+msgid "Edit WPI category"
+msgstr "WPI-Kategorie bearbeiten"
+
+msgid "Add WPI category"
+msgstr "WPI-Kategorie hinzufügen"
+
+msgid "Edit WPI package"
+msgstr "WPI-Paket bearbeiten"
+
+msgid "Edit XML file"
+msgstr "XML-Datei bearbeiten"
+
+msgid "Edit XML"
+msgstr "XML bearbeiten"
+
+msgid "Package action type has been saved."
+msgstr "Der Paketaktionstyp wurde gespeichert."
+
+msgid "Package action has been saved."
+msgstr "Die Paketaktion wurde gespeichert."
+
+msgid "Package action could not be saved. Please, try again."
+msgstr "Die Paketaktion konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Attributes has been saved."
+msgstr "Die Attribute wurden gespeichert."
+
+msgid "Attributes could not be saved. Please, try again."
+msgstr "Die Attribute konnten nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Check has been saved."
+msgstr "Die Prüfung wurde gespeichert."
+
+msgid "Check could not be saved. Please, try again."
+msgstr "Die Prüfung konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Settings of WPKG has been saved."
+msgstr "Die WPKG-Einstellungen wurden gespeichert."
+
+msgid "Settings of WPKG could not be saved. Please, try again."
+msgstr "Die WPKG-Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Record of exit code directory has been saved."
+msgstr "Der Eintrag im Beendigungscode-Verzeichnis wurde gespeichert."
+
+msgid "Exit code has been saved."
+msgstr "Der Beendigungscode wurde gespeichert."
+
+msgid "Exit code could not be saved. Please, try again."
+msgstr "Der Beendigungscode konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Host has been saved."
+msgstr "Der Host wurde gespeichert."
+
+msgid "Host could not be saved. Please, try again."
+msgstr "Der Host konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Package priority has been saved."
+msgstr "Die Paketpriorität wurde gespeichert."
+
+msgid "Package priority could not be saved. Please, try again."
+msgstr "Die Paketpriorität konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Profile has been saved."
+msgstr "Das Profil wurde gespeichert."
+
+msgid "Profile could not be saved. Please, try again."
+msgstr "Das Profil konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Variable has been saved."
+msgstr "Die Variable wurde gespeichert."
+
+msgid "Variable could not be saved. Please, try again."
+msgstr "Die Variable konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "WPI category has been saved."
+msgstr "Die WPI-Kategorie wurde gespeichert."
+
+msgid "WPI package has been saved."
+msgstr "Das WPI-Paket wurde gespeichert."
+
+msgid "WPI package could not be saved. Please, try again."
+msgstr "Das WPI-Paket konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Add %s"
+msgstr "%s hinzufügen"
+
+msgid "Information of %s"
+msgstr "Informationen zu %s"
+
+msgid "Delete %s"
+msgstr "%s löschen"
+
+msgid "Check"
+msgstr "Prüfung"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Package"
+msgstr "Paket"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Report"
+msgstr "Bericht"
+
+msgid "Variable"
+msgstr "Variable"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Revision"
+msgstr "Revision"
+
+msgid "Priority"
+msgstr "Priorität"
+
+msgid "Log"
+msgstr "Protokoll"
+
+msgid "Submit"
+msgstr "Absenden"
+
+msgid "Home"
+msgstr "Startseite"
+
+msgid "Select all"
+msgstr "Alle auswählen"
+
+msgid "First"
+msgstr "Erste"
+
+msgid "Last"
+msgstr "Letzte"
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "Previous"
+msgstr "Zurück"
+
+msgid "Index of types of package actions"
+msgstr "Übersicht der Paketaktionstypen"
+
+msgid "Index of hosts"
+msgstr "Hostübersicht"
+
+msgid "Index of logs"
+msgstr "Protokollübersicht"
+
+msgid "Index of package priorities"
+msgstr "Übersicht der Paketprioritäten"
+
+msgid "Index of profiles"
+msgstr "Profilübersicht"
+
+msgid "Index of reports"
+msgstr "Berichtsübersicht"
+
+msgid "Index of WPI categories"
+msgstr "Übersicht der WPI-Kategorien"
+
+msgid "Index of WPI packages"
+msgstr "Übersicht der WPI-Pakete"
+
+msgid "Index of %s"
+msgstr "Übersicht: %s"
+
+msgid "Are you sure you wish to delete this package action type?"
+msgstr "Möchten Sie diesen Paketaktionstyp wirklich löschen?"
+
+msgid "Are you sure you wish to delete this attributes?"
+msgstr "Möchten Sie diese Attribute wirklich löschen?"
+
+msgid "Are you sure you wish to delete this record of exit code directory?"
+msgstr "Möchten Sie diesen Eintrag aus dem Beendigungscode-Verzeichnis wirklich löschen?"
+
+msgid "Are you sure you wish to delete this package priority?"
+msgstr "Möchten Sie diese Paketpriorität wirklich löschen?"
+
+msgid "Are you sure you wish to delete this WPI category?"
+msgstr "Möchten Sie diese WPI-Kategorie wirklich löschen?"
+
+msgid "Are you sure you wish to delete this WPI package?"
+msgstr "Möchten Sie dieses WPI-Paket wirklich löschen?"
+
+msgid "Are you sure you wish to clear archive?"
+msgstr "Möchten Sie das Archiv wirklich leeren?"
+
+msgid "Are you sure you wish to clear archive of this package?"
+msgstr "Möchten Sie das Archiv dieses Pakets wirklich leeren?"
+
+msgid "Are you sure you wish to restore this package from archive?"
+msgstr "Möchten Sie dieses Paket wirklich aus dem Archiv wiederherstellen?"
+
+msgid "Are you sure you wish to delete this package from archive?"
+msgstr "Möchten Sie dieses Paket wirklich aus dem Archiv löschen?"
+
+msgid "Are you sure you wish to clear recycle bin?"
+msgstr "Möchten Sie den Papierkorb wirklich leeren?"
+
+msgid "Are you sure you wish to restore this data from recycle bin?"
+msgstr "Möchten Sie diese Daten wirklich aus dem Papierkorb wiederherstellen?"
+
+msgid "Are you sure you wish to delete this data from recycle bin?"
+msgstr "Möchten Sie diese Daten wirklich aus dem Papierkorb löschen?"
+
+msgid "Are you sure you wish to clear logs?"
+msgstr "Möchten Sie die Protokolle wirklich leeren?"
+
+msgid "Are you sure you wish to clear logs of host '%s'?"
+msgstr "Möchten Sie die Protokolle von Host '%s' wirklich leeren?"
+
+msgid "Are you sure you wish to clear reports?"
+msgstr "Möchten Sie die Berichte wirklich leeren?"
+
+msgid "Are you sure you wish to copy this %s?"
+msgstr "Möchten Sie %s wirklich kopieren?"
+
+msgid "The package has been added to archive."
+msgstr "Das Paket wurde zum Archiv hinzugefügt."
+
+msgid "The package could not be added to archive. Please, try again."
+msgstr "Das Paket konnte nicht zum Archiv hinzugefügt werden. Bitte versuchen Sie es erneut."
+
+msgid "Record of exit code directory could not be saved. Please, try again."
+msgstr "Der Eintrag im Beendigungscode-Verzeichnis konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Installation date of package has been saved."
+msgstr "Das Installationsdatum des Pakets wurde gespeichert."
+
+msgid "Installation date of package could not be saved. Please, try again."
+msgstr "Das Installationsdatum des Pakets konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "WPI category could not be saved. Please, try again."
+msgstr "Die WPI-Kategorie konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+
+msgid "Delete action type"
+msgstr "Aktionstyp löschen"

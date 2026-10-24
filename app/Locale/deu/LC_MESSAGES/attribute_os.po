@@ -1,0 +1,51 @@
+# German operating system labels for host attributes.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Windows xp"
+msgstr "Windows XP"
+
+msgid "Windows vista"
+msgstr "Windows Vista"
+
+msgid "Windows 7"
+msgstr "Windows 7"
+
+msgid "Windows 8"
+msgstr "Windows 8"
+
+msgid "Windows 8.1"
+msgstr "Windows 8.1"
+
+msgid "Windows 10"
+msgstr "Windows 10"
+
+msgid "Windows server 2003"
+msgstr "Windows Server 2003"
+
+msgid "Windows server 2008"
+msgstr "Windows Server 2008"
+
+msgid "Windows server 2008 r2"
+msgstr "Windows Server 2008 R2"
+
+msgid "Windows server 2012"
+msgstr "Windows Server 2012"
+
+msgid "Windows server 2012 r2"
+msgstr "Windows Server 2012 R2"
+
+msgid "Windows less vista"
+msgstr "Windows-Versionen vor Vista"
+
+msgid "Windows vista and greater"
+msgstr "Windows Vista und höher"

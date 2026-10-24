@@ -1,0 +1,246 @@
+# German translations for CakeLdap.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPKG Express II\n"
+"PO-Revision-Date: 2026-10-24 20:08+0000\n"
+"Last-Translator: WPKG Express contributors\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Username"
+msgstr "Benutzername"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "Login"
+msgstr "Anmelden"
+
+msgid "Logout"
+msgstr "Abmelden"
+
+msgid "Authentication"
+msgstr "Authentifizierung"
+
+msgid "Caps Lock on"
+msgstr "Feststelltaste ist aktiviert"
+
+msgid "Username in user principal name format, e.g.: %s"
+msgstr "Benutzername im UPN-Format, z. B.: %s"
+
+msgid "Are you sure you wish to re-order tree of employees?"
+msgstr "Möchten Sie die Mitarbeiterstruktur wirklich neu ordnen?"
+
+msgid "Blocked"
+msgstr "Blockiert"
+
+msgid "CakePHP Queue Order task."
+msgstr "CakePHP-Warteschlangenaufgabe zum Sortieren."
+
+msgid "CakePHP Queue Recovery task."
+msgstr "CakePHP-Warteschlangenaufgabe zur Wiederherstellung."
+
+msgid "CakePHP Queue Sync task."
+msgstr "CakePHP-Warteschlangenaufgabe zur Synchronisierung."
+
+msgid "Changed manager"
+msgstr "Vorgesetzter geändert"
+
+msgid "Check state tree of employees"
+msgstr "Status des Mitarbeiterbaums prüfen"
+
+msgid "Checking state tree of employees"
+msgstr "Status des Mitarbeiterbaums wird geprüft"
+
+msgid "Checking tree"
+msgstr "Baum wird geprüft"
+
+msgid "Cron task Shell"
+msgstr "Cron-Aufgaben-Shell"
+
+msgid "Deleted"
+msgstr "Gelöscht"
+
+msgid "Deleted binded"
+msgstr "Zugeordnete Einträge gelöscht"
+
+msgid "Detail information"
+msgstr "Detaillierte Informationen"
+
+msgid "Edit tree of subordinate employee"
+msgstr "Baumstruktur der unterstellten Mitarbeiter bearbeiten"
+
+msgid "Employee DN: \"%s\"."
+msgstr "DN des Mitarbeiters: \"%s\"."
+
+msgid "Employees"
+msgstr "Mitarbeiter"
+
+msgid "Employees not found"
+msgstr "Keine Mitarbeiter gefunden"
+
+msgid "Error getting departments information from LDAP server"
+msgstr "Fehler beim Abrufen der Abteilungsinformationen vom LDAP-Server"
+
+msgid "Error getting employees information from LDAP server"
+msgstr "Fehler beim Abrufen der Mitarbeiterinformationen vom LDAP-Server"
+
+msgid "Error getting employees information from database"
+msgstr "Fehler beim Abrufen der Mitarbeiterinformationen aus der Datenbank"
+
+msgid "Error on recovery tree of employee."
+msgstr "Fehler beim Wiederherstellen des Mitarbeiterbaums."
+
+msgid "Error on reorder tree of employee."
+msgstr "Fehler beim Neuordnen des Mitarbeiterbaums."
+
+msgid "Error on synchronizing the employee tree with LDAP server."
+msgstr "Fehler beim Synchronisieren des Mitarbeiterbaums mit dem LDAP-Server."
+
+msgid "Error validation employee: %s"
+msgstr "Fehler bei der Validierung des Mitarbeiters: %s"
+
+msgid "Field: \"%s\"; Message: \"%s\"."
+msgstr "Feld: \"%s\"; Meldung: \"%s\"."
+
+msgid "Found order task in queue: %d. Skipped."
+msgstr "Sortieraufgabe %d in der Warteschlange gefunden. Übersprungen."
+
+msgid "Found recovery task in queue: %d. Skipped."
+msgstr "Wiederherstellungsaufgabe %d in der Warteschlange gefunden. Übersprungen."
+
+msgid "Found sync task in queue: %d. Skipped."
+msgstr "Synchronisierungsaufgabe %d in der Warteschlange gefunden. Übersprungen."
+
+msgid "Index"
+msgstr "Übersicht"
+
+msgid "Index of employees"
+msgstr "Mitarbeiterübersicht"
+
+msgid "Information of employees"
+msgstr "Mitarbeiterinformationen"
+
+msgid "Invalid ID for employee"
+msgstr "Ungültige Mitarbeiter-ID"
+
+msgid "Invalid username or password, try again"
+msgstr "Benutzername oder Passwort ungültig. Bitte versuchen Sie es erneut."
+
+msgid "Model: \"%s; \"Field: \"%s\"; Message: \"%s\"."
+msgstr "Modell: \"%s\"; Feld: \"%s\"; Meldung: \"%s\"."
+
+msgid "Order tree of employees"
+msgstr "Mitarbeiterbaum ordnen"
+
+msgid "Order tree of employees by alphabet"
+msgstr "Mitarbeiterbaum alphabetisch ordnen"
+
+msgid "Order tree of employees put in queue unsuccessfully"
+msgstr "Mitarbeiterbaum konnte nicht zur Sortierung in die Warteschlange gestellt werden."
+
+msgid "Order tree of employees put in queue..."
+msgstr "Mitarbeiterbaum wird zur Sortierung in die Warteschlange gestellt ..."
+
+msgid "Recovery state of tree"
+msgstr "Status des Baums wiederherstellen"
+
+msgid "Recovery tree of employees put in queue unsuccessfully"
+msgstr "Mitarbeiterbaum konnte nicht zur Wiederherstellung in die Warteschlange gestellt werden."
+
+msgid "Recovery tree of employees put in queue..."
+msgstr "Mitarbeiterbaum wird zur Wiederherstellung in die Warteschlange gestellt ..."
+
+msgid "Result of synchronization"
+msgstr "Synchronisierungsergebnis"
+
+msgid "Saved"
+msgstr "Gespeichert"
+
+msgid "Show or hide buttons"
+msgstr "Schaltflächen ein- oder ausblenden"
+
+msgid "Sync information of employees with LDAP server"
+msgstr "Mitarbeiterinformationen mit dem LDAP-Server synchronisieren"
+
+msgid "Synchronization information of employees has been finished successfully"
+msgstr "Die Synchronisierung der Mitarbeiterinformationen wurde erfolgreich abgeschlossen."
+
+msgid "Synchronization information of employees put in queue unsuccessfully"
+msgstr "Die Synchronisierung der Mitarbeiterinformationen konnte nicht in die Warteschlange gestellt werden."
+
+msgid "Synchronization information of employees put in queue..."
+msgstr "Synchronisierung der Mitarbeiterinformationen wird in die Warteschlange gestellt ..."
+
+msgid "Synchronization with LDAP server in progress..."
+msgstr "Synchronisierung mit dem LDAP-Server läuft ..."
+
+msgid "Synchronization with LDAP server set in queue successfully."
+msgstr "Die Synchronisierung mit dem LDAP-Server wurde in die Warteschlange gestellt."
+
+msgid "Synchronization with LDAP server set in queue unsuccessfully."
+msgstr "Die Synchronisierung mit dem LDAP-Server konnte nicht in die Warteschlange gestellt werden."
+
+msgid "Synchronize"
+msgstr "Synchronisieren"
+
+msgid "Synchronize information of employees with LDAP server"
+msgstr "Mitarbeiterinformationen mit dem LDAP-Server synchronisieren"
+
+msgid "Synchronize information of this employee with LDAP server"
+msgstr "Informationen dieses Mitarbeiters mit dem LDAP-Server synchronisieren"
+
+msgid "Synchronize information with LDAP server"
+msgstr "Informationen mit dem LDAP-Server synchronisieren"
+
+msgid "The database does not contain information on the tree view"
+msgstr "Die Datenbank enthält keine Informationen für die Baumansicht."
+
+msgid "The recovery tree of employees is not required"
+msgstr "Eine Wiederherstellung des Mitarbeiterbaums ist nicht erforderlich."
+
+msgid "This shell is used to execute task scheduled."
+msgstr "Diese Shell führt geplante Aufgaben aus."
+
+msgid "Tree of employees"
+msgstr "Mitarbeiterbaum"
+
+msgid "Tree of employees is broken. Perform a restore."
+msgstr "Der Mitarbeiterbaum ist beschädigt. Führen Sie eine Wiederherstellung durch."
+
+msgid "Tree of subordinate"
+msgstr "Baum der unterstellten Mitarbeiter"
+
+msgid "Tree view information of employees"
+msgstr "Baumansicht der Mitarbeiterinformationen"
+
+msgid "Tree view of employees"
+msgstr "Mitarbeiter-Baumansicht"
+
+msgid "Tree viewing"
+msgstr "Baumansicht"
+
+msgid "Viewing"
+msgstr "Anzeigen"
+
+msgid "and"
+msgstr "und"
+
+msgid "departments"
+msgstr "Abteilungen"
+
+msgid "employees"
+msgstr "Mitarbeiter"
+
+msgid "record"
+msgstr "Eintrag"
+
+msgid "subordinates"
+msgstr "unterstellte Mitarbeiter"
+
+msgid "Available tasks: %s."
+msgstr "Verfügbare Aufgaben: %s."
