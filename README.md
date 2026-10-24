@@ -4,8 +4,6 @@
 This project is a fork of WPKG Express 2 by Andrey Klimov  &copy;2020.
 It has been completely fixed by Copilot and might be totally crippled AI slop, so PLEASE keep this away from the internet and backup your WPKG files and database regularly!
 
-[![Build Status](https://travis-ci.com/anklimsk/wpkg-express-2.svg?branch=master)](https://travis-ci.com/anklimsk/wpkg-express-2)
-[![Latest Stable Version](https://poser.pugx.org/anklimsk/wpkg-express-2/v/stable)](https://packagist.org/packages/anklimsk/wpkg-express-2)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 A web-based frontend to [WPKG](https://wpkg.org)
