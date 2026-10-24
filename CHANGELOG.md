@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.3 (2026-10-24)
+
+### Fix
+
+* Fixed production asset requests being disabled by the CakeTheme local configuration.
+
+
 ## v1.1.2 (2026-10-24)
 
 ### Fix
