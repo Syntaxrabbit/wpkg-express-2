@@ -6,7 +6,6 @@
    ```ini
    ; List of additional JS files for Main layout
    [additional-files.js]
-   filters[] = YuiJs
    files[] = plugin:SearchInfo:js/SearchInfo.js
    ```
 

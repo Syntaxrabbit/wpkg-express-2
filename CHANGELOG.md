@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.4 (2026-10-24)
+
+### Fix
+
+* Removed the Java requirement from production asset generation.
+
+
 ## v1.1.3 (2026-10-24)
 
 ### Fix
