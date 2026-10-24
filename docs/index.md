@@ -12,9 +12,9 @@ by Brian White &copy;2009.
 
 ## WPKG Express 2 UI
 
-![WPKG Express 2 UI](https://anklimsk.github.io/wpkg-express-2/img/slideshow.gif)
+![WPKG Express 2 UI](img/slideshow.gif)
 
-See the project [presentation](https://anklimsk.github.io/wpkg-express-2/presentation/).
+See the project [presentation](presentation.html).
 
 ## This frontend to WPKG provides next features:
 

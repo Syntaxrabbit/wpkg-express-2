@@ -402,4 +402,4 @@ The structure of the directory `WPKG` located in the %SOFTWARE_NETLOGON%
 
 ## Graph of the package `WPKG-GP`
 
-![Graph of the package](https://anklimsk.github.io/wpkg-express-2/img/Graph-WPKG-GP.svg)
+![Graph of the package](img/Graph-WPKG-GP.svg)

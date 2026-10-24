@@ -3,7 +3,7 @@
 	"description": "A web-based frontend to WPKG",
 	"type": "project",
 	"keywords": ["wpkg", "wpkg-express-2"],
-	"homepage": "https://anklimsk.github.io/wpkg-express-2",
+	"homepage": "https://github.com/Syntaxrabbit/wpkg-express-2",
 	"license": "GPL-3.0-or-later",
 	"require": {
 		"php": ">=5.4.0"

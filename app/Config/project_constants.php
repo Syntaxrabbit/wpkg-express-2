@@ -51,7 +51,7 @@ if (!defined('PROJECT_PAGE_TITLE')) {
  *  Default value ``
  */
 if (!defined('PROJECT_AUTHOR')) {
-	define('PROJECT_AUTHOR', '&copy; 2009, <a href="https://code.google.com/archive/p/wpkgexpress">Brian White</a>; &copy; 2018-2020, <a href="https://anklimsk.github.io/wpkg-express-2">Andrey Klimov</a>.');
+	define('PROJECT_AUTHOR', '&copy; 2009, <a href="https://code.google.com/archive/p/wpkgexpress">Brian White</a>; &copy; 2018-2020, <a href="https://github.com/Syntaxrabbit/wpkg-express-2">Andrey Klimov</a>; &copy; 2026, <a href="https://github.com/Syntaxrabbit">Syntaxrabbit</a>.');
 }
 
 /**

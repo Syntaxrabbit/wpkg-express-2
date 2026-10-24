@@ -2,6 +2,7 @@
 
 *ATTENTION*
 This project is a fork of WPKG Express 2 by Andrey Klimov  &copy;2020.
+Copyright &copy;2026 Syntaxrabbit.
 It has been completely fixed by Copilot and might be totally crippled AI slop, so PLEASE keep this away from the internet and backup your WPKG files and database regularly!
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -15,9 +16,9 @@ by Brian White &copy;2009.
 
 ## WPKG Express 2 UI
 
-![WPKG Express 2 UI](https://anklimsk.github.io/wpkg-express-2/img/slideshow.gif)
+![WPKG Express 2 UI](docs/img/slideshow.gif)
 
-See the project [presentation](https://anklimsk.github.io/wpkg-express-2/presentation/).
+See the project [presentation](docs/presentation.html).
 
 ## This frontend to WPKG provides next features:
 
@@ -73,10 +74,10 @@ See the project [presentation](https://anklimsk.github.io/wpkg-express-2/present
 ## Installation
 
 1. Install WPKG Express 2 using composer:
-  `composer create-project --no-dev anklimsk/wpkg-express-2 /var/www/wpkg`,
+  `composer create-project --no-dev syntaxrabbit/wpkg-express-2 /var/www/wpkg`,
   where `/var/www/wpkg` is Document Root directory.
-  Or just download the [latest release](https://github.com/anklimsk/wpkg-express-2/releases/latest)
-  from [releases](https://github.com/anklimsk/wpkg-express-2/releases) and extract
+  Or just download the [latest release](https://github.com/Syntaxrabbit/wpkg-express-2/releases/latest)
+  from [releases](https://github.com/Syntaxrabbit/wpkg-express-2/releases) and extract
   the archive to the Document Root directory.
 2. Set the [DocumentRoot](https://httpd.apache.org/docs/trunk/mod/core.html#documentroot)
   directive for the domain to [`/var/www/wpkg/app/webroot`](https://book.cakephp.org/2/en/installation.html#production).
