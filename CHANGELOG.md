@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.5 (2026-10-24)
+
+### Fix
+
+* Fixed LDAP datasource compatibility with PHP 8 LDAP handles and runtimes without `ldap_sort()`.
+
+
 ## v1.1.4 (2026-10-24)
 
 ### Fix
