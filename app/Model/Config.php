@@ -153,9 +153,10 @@ class Config extends AppModel {
 
 		foreach ($results as &$resultItem) {
 			if (isset($resultItem[$this->alias]['value']) && !empty($resultItem[$this->alias]['value'])) {
-				//@codingStandardsIgnoreStart
-				$resultItem[$this->alias]['value'] = @unserialize($resultItem[$this->alias]['value']);
-				//@codingStandardsIgnoreEnd 
+				$value = $resultItem[$this->alias]['value'];
+				if ($this->_isSerializedValue($value)) {
+					$resultItem[$this->alias]['value'] = unserialize($value);
+				}
 			}
 		}
 		unset($resultItem);
@@ -221,10 +222,7 @@ class Config extends AppModel {
 			return false;
 		}
 
-		//@codingStandardsIgnoreStart
-		$data = @unserialize($this->data[$this->alias]['value']);
-		//@codingStandardsIgnoreEnd 
-		if (($data !== false) || ($this->data[$this->alias]['value'] === 'b:0;')) {
+		if ($this->_isSerializedValue($this->data[$this->alias]['value'])) {
 			return true;
 		}
 
@@ -240,6 +238,29 @@ class Config extends AppModel {
 
 		$this->data[$this->alias]['value'] = serialize($value);
 		return true;
+	}
+
+/**
+ * Check whether a value is a serialized scalar.
+ *
+ * @param mixed $value Value to check.
+ * @return bool True if the value is serialized.
+ */
+	protected function _isSerializedValue($value) {
+		if (!is_string($value)) {
+			return false;
+		}
+
+		if ($value === 'N;' ||
+			preg_match('/^(?:b:[01]|i:-?\d+|d:(?:-?\d+(?:\.\d*)?(?:[Ee][+-]?\d+)?|INF|-INF|NAN));$/D', $value)) {
+			return true;
+		}
+
+		if (!preg_match('/^s:(\d+):"(.*)";$/sD', $value, $matches)) {
+			return false;
+		}
+
+		return strlen($matches[2]) === (int)$matches[1];
 	}
 
 /**
@@ -457,8 +478,7 @@ class Config extends AppModel {
  * @return bool Success.
  */
 	public function deleteConfig() {
-		$dataSource = $this->getDataSource();
-		return $dataSource->truncate($this);
+		return $this->deleteAll(['1 = 1'], false, false);
 	}
 
 /**

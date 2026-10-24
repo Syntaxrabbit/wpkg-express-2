@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.1.1 (2026-10-24)
+
+### Fix
+
+* Fixed importing sample configuration without unserialize warnings or transaction errors.
+
+
 ## v1.1.0 (2026-10-24)
 
 ### Changes
@@ -281,4 +288,3 @@
 ### Fix
 
 * Fixed deletion of related attributes along with global variables.
-

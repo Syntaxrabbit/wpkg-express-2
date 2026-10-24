@@ -177,8 +177,7 @@ class ConfigLanguage extends AppModel {
  * @return bool Success.
  */
 	public function deleteConfigurationLanguages() {
-		$dataSource = $this->getDataSource();
-		return $dataSource->truncate($this);
+		return $this->deleteAll(['1 = 1'], false, false);
 	}
 
 }
