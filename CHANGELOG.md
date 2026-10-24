@@ -1,6 +1,13 @@
 # Changelog
 
 
+## v1.2.1 (2026-10-25)
+
+### Security
+
+* Removed exposed Google Maps API keys from the geocoding test fixtures.
+
+
 ## v1.2.0 (2026-10-24)
 
 ### New

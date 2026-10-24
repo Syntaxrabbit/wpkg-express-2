@@ -6,7 +6,7 @@ App::uses('HttpSocketResponse', 'Network/Http');
 
 # google maps
 Configure::write('Google', [
-	'key' => 'ABQIAAAAk-aSeht5vBRyVc9CjdBKLRRnhS8GMCOqu88EXp1O-QqtMSdzHhQM4y1gkHFQdUvwiZgZ6jaKlW40kw',	//local
+	'key' => 'test-api-key',	//local
 	'api' => '2.x',
 	'zoom' => 16,
 	'lat' => null,
@@ -27,7 +27,7 @@ class GeocodeLibTest extends MyCakeTestCase {
 				'language' => 'en',
 				'bounds' => '',
 				'sensor' => 'false',
-				'key' => 'AIzaSyAcQWSeMp_RF9W2_g2vOfLlUNCieHtHfFA',
+				'key' => 'test-api-key',
 				'result_type' => 'sublocality'
 			]
 		],
